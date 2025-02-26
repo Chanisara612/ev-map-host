@@ -1,0 +1,3721 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap-glyphicons.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_e4240bd6d3d85925082804bf55bdafa1 {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+                .leaflet-container { font-size: 1rem; }
+            </style>
+        
+    <script src="https://cdn.jsdelivr.net/gh/python-visualization/folium@main/folium/templates/leaflet_heat.min.js"></script>
+</head>
+<body>
+    
+    
+            <div class="folium-map" id="map_e4240bd6d3d85925082804bf55bdafa1" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_e4240bd6d3d85925082804bf55bdafa1 = L.map(
+                "map_e4240bd6d3d85925082804bf55bdafa1",
+                {
+                    center: [13.764482500999998, 100.52612994499998],
+                    crs: L.CRS.EPSG3857,
+                    ...{
+  "zoom": 12,
+  "zoomControl": true,
+  "preferCanvas": false,
+}
+
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_c57ae31057e2a5f4ac2a24ad02a5e563 = L.tileLayer(
+                "https://{s}.basemaps.cartocdn.com/rastertiles/voyager_labels_under/{z}/{x}/{y}{r}.png",
+                {
+  "minZoom": 0,
+  "maxZoom": 18,
+  "maxNativeZoom": 18,
+  "noWrap": false,
+  "attribution": "\u0026copy; \u003ca href=\"https://www.openstreetmap.org/copyright\"\u003eOpenStreetMap\u003c/a\u003e contributors \u0026copy; \u003ca href=\"https://carto.com/attributions\"\u003eCARTO\u003c/a\u003e",
+  "subdomains": "abc",
+  "detectRetina": false,
+  "tms": false,
+  "opacity": 1,
+}
+
+            );
+        
+    
+            tile_layer_c57ae31057e2a5f4ac2a24ad02a5e563.addTo(map_e4240bd6d3d85925082804bf55bdafa1);
+        
+    
+            var marker_b2ba77b89fc766fb64630cd4e732e501 = L.marker(
+                [13.7412382, 100.5247027],
+                {
+}
+            ).addTo(map_e4240bd6d3d85925082804bf55bdafa1);
+        
+    
+            var icon_0ade8c638568069656b6ed7af24dd2ec = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "orange",
+  "iconColor": "white",
+  "icon": "bolt",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_b2ba77b89fc766fb64630cd4e732e501.setIcon(icon_0ade8c638568069656b6ed7af24dd2ec);
+        
+    
+        var popup_2130e87d9d47805a432db21998179e84 = L.popup({
+  "maxWidth": 250,
+});
+
+        
+            
+                var html_53cc5d9031bfe6efacd4689cce730424 = $(`<div id="html_53cc5d9031bfe6efacd4689cce730424" style="width: 100.0%; height: 100.0%;">     <b>ไม่ระบุชื่อ</b><br>     📍 ไม่ระบุที่อยู่<br>     🌍 <a href="https://www.google.com/maps/search/?api=1&query=13.7412382,100.5247027" target="_blank">ดูบน Google Maps</a>     </div>`)[0];
+                popup_2130e87d9d47805a432db21998179e84.setContent(html_53cc5d9031bfe6efacd4689cce730424);
+            
+        
+
+        marker_b2ba77b89fc766fb64630cd4e732e501.bindPopup(popup_2130e87d9d47805a432db21998179e84)
+        ;
+
+        
+    
+    
+            var marker_74291182e1b3c41e9119b5c715f25bcb = L.marker(
+                [13.7340918, 100.5285749],
+                {
+}
+            ).addTo(map_e4240bd6d3d85925082804bf55bdafa1);
+        
+    
+            var icon_b52e621e57871ee94187670a84838e0d = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "orange",
+  "iconColor": "white",
+  "icon": "bolt",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_74291182e1b3c41e9119b5c715f25bcb.setIcon(icon_b52e621e57871ee94187670a84838e0d);
+        
+    
+        var popup_377f805c5ccf4bd3061f62d658dbfb18 = L.popup({
+  "maxWidth": 250,
+});
+
+        
+            
+                var html_89f2036bc3dd2318860e138b5a06abe1 = $(`<div id="html_89f2036bc3dd2318860e138b5a06abe1" style="width: 100.0%; height: 100.0%;">     <b>ไม่ระบุชื่อ</b><br>     📍 ไม่ระบุที่อยู่<br>     🌍 <a href="https://www.google.com/maps/search/?api=1&query=13.7340918,100.5285749" target="_blank">ดูบน Google Maps</a>     </div>`)[0];
+                popup_377f805c5ccf4bd3061f62d658dbfb18.setContent(html_89f2036bc3dd2318860e138b5a06abe1);
+            
+        
+
+        marker_74291182e1b3c41e9119b5c715f25bcb.bindPopup(popup_377f805c5ccf4bd3061f62d658dbfb18)
+        ;
+
+        
+    
+    
+            var marker_594c580a96f1c09537b179f6553a1b3a = L.marker(
+                [13.7641452, 100.5271857],
+                {
+}
+            ).addTo(map_e4240bd6d3d85925082804bf55bdafa1);
+        
+    
+            var icon_9c147dc31a118ae17d6b5f88a22708e3 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "orange",
+  "iconColor": "white",
+  "icon": "bolt",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_594c580a96f1c09537b179f6553a1b3a.setIcon(icon_9c147dc31a118ae17d6b5f88a22708e3);
+        
+    
+        var popup_5275a169a1f9fd99f59813d978a4ddb0 = L.popup({
+  "maxWidth": 250,
+});
+
+        
+            
+                var html_0e0978db895812cb02ce2234350732cc = $(`<div id="html_0e0978db895812cb02ce2234350732cc" style="width: 100.0%; height: 100.0%;">     <b>ไม่ระบุชื่อ</b><br>     📍 ไม่ระบุที่อยู่<br>     🌍 <a href="https://www.google.com/maps/search/?api=1&query=13.7641452,100.5271857" target="_blank">ดูบน Google Maps</a>     </div>`)[0];
+                popup_5275a169a1f9fd99f59813d978a4ddb0.setContent(html_0e0978db895812cb02ce2234350732cc);
+            
+        
+
+        marker_594c580a96f1c09537b179f6553a1b3a.bindPopup(popup_5275a169a1f9fd99f59813d978a4ddb0)
+        ;
+
+        
+    
+    
+            var marker_d5b333609e7638a23b97642326b431bd = L.marker(
+                [13.7421854, 100.5210612],
+                {
+}
+            ).addTo(map_e4240bd6d3d85925082804bf55bdafa1);
+        
+    
+            var icon_52a1783fd1745582d2b1b3dba7b797cd = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "orange",
+  "iconColor": "white",
+  "icon": "bolt",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_d5b333609e7638a23b97642326b431bd.setIcon(icon_52a1783fd1745582d2b1b3dba7b797cd);
+        
+    
+        var popup_742b72bacc5f7581340eadd2a75f3008 = L.popup({
+  "maxWidth": 250,
+});
+
+        
+            
+                var html_28735121b2808b52c777abafe7f35c2c = $(`<div id="html_28735121b2808b52c777abafe7f35c2c" style="width: 100.0%; height: 100.0%;">     <b>ไม่ระบุชื่อ</b><br>     📍 ไม่ระบุที่อยู่<br>     🌍 <a href="https://www.google.com/maps/search/?api=1&query=13.7421854,100.5210612" target="_blank">ดูบน Google Maps</a>     </div>`)[0];
+                popup_742b72bacc5f7581340eadd2a75f3008.setContent(html_28735121b2808b52c777abafe7f35c2c);
+            
+        
+
+        marker_d5b333609e7638a23b97642326b431bd.bindPopup(popup_742b72bacc5f7581340eadd2a75f3008)
+        ;
+
+        
+    
+    
+            var marker_ca6dbc9a27eb68a14e2dcf9f369d16c8 = L.marker(
+                [13.7267576, 100.5102933],
+                {
+}
+            ).addTo(map_e4240bd6d3d85925082804bf55bdafa1);
+        
+    
+            var icon_0a3b67ed1afd4f80541af411374ab756 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "orange",
+  "iconColor": "white",
+  "icon": "bolt",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_ca6dbc9a27eb68a14e2dcf9f369d16c8.setIcon(icon_0a3b67ed1afd4f80541af411374ab756);
+        
+    
+        var popup_1ee52e2791a1204c40533ef2f82ecb37 = L.popup({
+  "maxWidth": 250,
+});
+
+        
+            
+                var html_98c3028e059a75629ad1562d43f22c00 = $(`<div id="html_98c3028e059a75629ad1562d43f22c00" style="width: 100.0%; height: 100.0%;">     <b>ไม่ระบุชื่อ</b><br>     📍 ไม่ระบุที่อยู่<br>     🌍 <a href="https://www.google.com/maps/search/?api=1&query=13.7267576,100.5102933" target="_blank">ดูบน Google Maps</a>     </div>`)[0];
+                popup_1ee52e2791a1204c40533ef2f82ecb37.setContent(html_98c3028e059a75629ad1562d43f22c00);
+            
+        
+
+        marker_ca6dbc9a27eb68a14e2dcf9f369d16c8.bindPopup(popup_1ee52e2791a1204c40533ef2f82ecb37)
+        ;
+
+        
+    
+    
+            var marker_c669e97a75d667897b104843f38fd6d7 = L.marker(
+                [13.7680871, 100.5307341],
+                {
+}
+            ).addTo(map_e4240bd6d3d85925082804bf55bdafa1);
+        
+    
+            var icon_7ca1c6eafe6ab1abaeb0fdf57c8710e3 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "orange",
+  "iconColor": "white",
+  "icon": "bolt",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_c669e97a75d667897b104843f38fd6d7.setIcon(icon_7ca1c6eafe6ab1abaeb0fdf57c8710e3);
+        
+    
+        var popup_22d4fecbeff9f4684aac082e8f84bb78 = L.popup({
+  "maxWidth": 250,
+});
+
+        
+            
+                var html_3d4af9f776d6c5460e9910acf65ce0de = $(`<div id="html_3d4af9f776d6c5460e9910acf65ce0de" style="width: 100.0%; height: 100.0%;">     <b>ไม่ระบุชื่อ</b><br>     📍 ไม่ระบุที่อยู่<br>     🌍 <a href="https://www.google.com/maps/search/?api=1&query=13.7680871,100.5307341" target="_blank">ดูบน Google Maps</a>     </div>`)[0];
+                popup_22d4fecbeff9f4684aac082e8f84bb78.setContent(html_3d4af9f776d6c5460e9910acf65ce0de);
+            
+        
+
+        marker_c669e97a75d667897b104843f38fd6d7.bindPopup(popup_22d4fecbeff9f4684aac082e8f84bb78)
+        ;
+
+        
+    
+    
+            var marker_23e049bd424b0d7f49132f2a3175a43e = L.marker(
+                [13.761954, 100.511995],
+                {
+}
+            ).addTo(map_e4240bd6d3d85925082804bf55bdafa1);
+        
+    
+            var icon_e61f00093ccbcc73104f9466517846f5 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "orange",
+  "iconColor": "white",
+  "icon": "bolt",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_23e049bd424b0d7f49132f2a3175a43e.setIcon(icon_e61f00093ccbcc73104f9466517846f5);
+        
+    
+        var popup_029548e1d78b3019fdc9379ac7c6e048 = L.popup({
+  "maxWidth": 250,
+});
+
+        
+            
+                var html_459bdf8786d39fa1a771d675962778ad = $(`<div id="html_459bdf8786d39fa1a771d675962778ad" style="width: 100.0%; height: 100.0%;">     <b>ไม่ระบุชื่อ</b><br>     📍 ไม่ระบุที่อยู่<br>     🌍 <a href="https://www.google.com/maps/search/?api=1&query=13.761954,100.511995" target="_blank">ดูบน Google Maps</a>     </div>`)[0];
+                popup_029548e1d78b3019fdc9379ac7c6e048.setContent(html_459bdf8786d39fa1a771d675962778ad);
+            
+        
+
+        marker_23e049bd424b0d7f49132f2a3175a43e.bindPopup(popup_029548e1d78b3019fdc9379ac7c6e048)
+        ;
+
+        
+    
+    
+            var marker_482a3022f605010a93baaff779e33711 = L.marker(
+                [13.7868729, 100.5100501],
+                {
+}
+            ).addTo(map_e4240bd6d3d85925082804bf55bdafa1);
+        
+    
+            var icon_aa0791e6d9225f192da65f3327f680a6 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "orange",
+  "iconColor": "white",
+  "icon": "bolt",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_482a3022f605010a93baaff779e33711.setIcon(icon_aa0791e6d9225f192da65f3327f680a6);
+        
+    
+        var popup_e19ee986aaa0116a5f86c7b98eb21900 = L.popup({
+  "maxWidth": 250,
+});
+
+        
+            
+                var html_dc676a25af3a5e5a88114c7d2ef61ab4 = $(`<div id="html_dc676a25af3a5e5a88114c7d2ef61ab4" style="width: 100.0%; height: 100.0%;">     <b>ไม่ระบุชื่อ</b><br>     📍 ไม่ระบุที่อยู่<br>     🌍 <a href="https://www.google.com/maps/search/?api=1&query=13.7868729,100.5100501" target="_blank">ดูบน Google Maps</a>     </div>`)[0];
+                popup_e19ee986aaa0116a5f86c7b98eb21900.setContent(html_dc676a25af3a5e5a88114c7d2ef61ab4);
+            
+        
+
+        marker_482a3022f605010a93baaff779e33711.bindPopup(popup_e19ee986aaa0116a5f86c7b98eb21900)
+        ;
+
+        
+    
+    
+            var marker_2a52c39aaf68c769ad9e84d9e78bc5bf = L.marker(
+                [13.7467157, 100.5249469],
+                {
+}
+            ).addTo(map_e4240bd6d3d85925082804bf55bdafa1);
+        
+    
+            var icon_aac33417e030ec536f16792103f27029 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "orange",
+  "iconColor": "white",
+  "icon": "bolt",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_2a52c39aaf68c769ad9e84d9e78bc5bf.setIcon(icon_aac33417e030ec536f16792103f27029);
+        
+    
+        var popup_9fbc04e8023521eb557604d5c7ade49e = L.popup({
+  "maxWidth": 250,
+});
+
+        
+            
+                var html_21f62614ceab5de9ffb6051e1cf305ac = $(`<div id="html_21f62614ceab5de9ffb6051e1cf305ac" style="width: 100.0%; height: 100.0%;">     <b>ไม่ระบุชื่อ</b><br>     📍 ไม่ระบุที่อยู่<br>     🌍 <a href="https://www.google.com/maps/search/?api=1&query=13.7467157,100.5249469" target="_blank">ดูบน Google Maps</a>     </div>`)[0];
+                popup_9fbc04e8023521eb557604d5c7ade49e.setContent(html_21f62614ceab5de9ffb6051e1cf305ac);
+            
+        
+
+        marker_2a52c39aaf68c769ad9e84d9e78bc5bf.bindPopup(popup_9fbc04e8023521eb557604d5c7ade49e)
+        ;
+
+        
+    
+    
+            var marker_009c9726aa2d95566c03af92fad3c3ee = L.marker(
+                [13.759619, 100.5355202],
+                {
+}
+            ).addTo(map_e4240bd6d3d85925082804bf55bdafa1);
+        
+    
+            var icon_695b3ed1d172e86b7a5c066007eb6c87 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "orange",
+  "iconColor": "white",
+  "icon": "bolt",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_009c9726aa2d95566c03af92fad3c3ee.setIcon(icon_695b3ed1d172e86b7a5c066007eb6c87);
+        
+    
+        var popup_704be7aaf4a8d135cdf8ddafe4153dd6 = L.popup({
+  "maxWidth": 250,
+});
+
+        
+            
+                var html_c5cdd10a65bf0bb4f4a2941be6374dec = $(`<div id="html_c5cdd10a65bf0bb4f4a2941be6374dec" style="width: 100.0%; height: 100.0%;">     <b>ไม่ระบุชื่อ</b><br>     📍 ไม่ระบุที่อยู่<br>     🌍 <a href="https://www.google.com/maps/search/?api=1&query=13.759619,100.5355202" target="_blank">ดูบน Google Maps</a>     </div>`)[0];
+                popup_704be7aaf4a8d135cdf8ddafe4153dd6.setContent(html_c5cdd10a65bf0bb4f4a2941be6374dec);
+            
+        
+
+        marker_009c9726aa2d95566c03af92fad3c3ee.bindPopup(popup_704be7aaf4a8d135cdf8ddafe4153dd6)
+        ;
+
+        
+    
+    
+            var marker_b31badcc80a0f0f5820b3e736da484b7 = L.marker(
+                [13.723983, 100.5144477],
+                {
+}
+            ).addTo(map_e4240bd6d3d85925082804bf55bdafa1);
+        
+    
+            var icon_78946fa2e727c49037dcbf3cd914f012 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "orange",
+  "iconColor": "white",
+  "icon": "bolt",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_b31badcc80a0f0f5820b3e736da484b7.setIcon(icon_78946fa2e727c49037dcbf3cd914f012);
+        
+    
+        var popup_433cd12fb84fc97878f0e1f15fea0549 = L.popup({
+  "maxWidth": 250,
+});
+
+        
+            
+                var html_3038cacfb51f569bb175a98a0cf1e276 = $(`<div id="html_3038cacfb51f569bb175a98a0cf1e276" style="width: 100.0%; height: 100.0%;">     <b>ไม่ระบุชื่อ</b><br>     📍 ไม่ระบุที่อยู่<br>     🌍 <a href="https://www.google.com/maps/search/?api=1&query=13.723983,100.5144477" target="_blank">ดูบน Google Maps</a>     </div>`)[0];
+                popup_433cd12fb84fc97878f0e1f15fea0549.setContent(html_3038cacfb51f569bb175a98a0cf1e276);
+            
+        
+
+        marker_b31badcc80a0f0f5820b3e736da484b7.bindPopup(popup_433cd12fb84fc97878f0e1f15fea0549)
+        ;
+
+        
+    
+    
+            var marker_7e2e2c7f74d5a47f0c04c199d058c4bf = L.marker(
+                [13.7458242, 100.5347259],
+                {
+}
+            ).addTo(map_e4240bd6d3d85925082804bf55bdafa1);
+        
+    
+            var icon_7d0d3b1bacd3bb8d47041663d4bf94c5 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "orange",
+  "iconColor": "white",
+  "icon": "bolt",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_7e2e2c7f74d5a47f0c04c199d058c4bf.setIcon(icon_7d0d3b1bacd3bb8d47041663d4bf94c5);
+        
+    
+        var popup_5cc9db8b0c77330c48726e467268c5ef = L.popup({
+  "maxWidth": 250,
+});
+
+        
+            
+                var html_246ae34240b3464021cb5af5e3a38eba = $(`<div id="html_246ae34240b3464021cb5af5e3a38eba" style="width: 100.0%; height: 100.0%;">     <b>ไม่ระบุชื่อ</b><br>     📍 ไม่ระบุที่อยู่<br>     🌍 <a href="https://www.google.com/maps/search/?api=1&query=13.7458242,100.5347259" target="_blank">ดูบน Google Maps</a>     </div>`)[0];
+                popup_5cc9db8b0c77330c48726e467268c5ef.setContent(html_246ae34240b3464021cb5af5e3a38eba);
+            
+        
+
+        marker_7e2e2c7f74d5a47f0c04c199d058c4bf.bindPopup(popup_5cc9db8b0c77330c48726e467268c5ef)
+        ;
+
+        
+    
+    
+            var marker_611614d1153e11790a48861d60b83564 = L.marker(
+                [13.7569429, 100.5305819],
+                {
+}
+            ).addTo(map_e4240bd6d3d85925082804bf55bdafa1);
+        
+    
+            var icon_ce44ddf7418bc3384cc015ab5dae29ec = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "orange",
+  "iconColor": "white",
+  "icon": "bolt",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_611614d1153e11790a48861d60b83564.setIcon(icon_ce44ddf7418bc3384cc015ab5dae29ec);
+        
+    
+        var popup_a8090d757aa7041d86985e2e8570f087 = L.popup({
+  "maxWidth": 250,
+});
+
+        
+            
+                var html_41c2ed7d088a5654c76d0d4e3738433e = $(`<div id="html_41c2ed7d088a5654c76d0d4e3738433e" style="width: 100.0%; height: 100.0%;">     <b>ไม่ระบุชื่อ</b><br>     📍 ไม่ระบุที่อยู่<br>     🌍 <a href="https://www.google.com/maps/search/?api=1&query=13.7569429,100.5305819" target="_blank">ดูบน Google Maps</a>     </div>`)[0];
+                popup_a8090d757aa7041d86985e2e8570f087.setContent(html_41c2ed7d088a5654c76d0d4e3738433e);
+            
+        
+
+        marker_611614d1153e11790a48861d60b83564.bindPopup(popup_a8090d757aa7041d86985e2e8570f087)
+        ;
+
+        
+    
+    
+            var marker_bd3d16653a171140c3b9fc5443eddab9 = L.marker(
+                [13.7231301, 100.5108032],
+                {
+}
+            ).addTo(map_e4240bd6d3d85925082804bf55bdafa1);
+        
+    
+            var icon_8047cea9b98a2782b2947acd1f816494 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "orange",
+  "iconColor": "white",
+  "icon": "bolt",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_bd3d16653a171140c3b9fc5443eddab9.setIcon(icon_8047cea9b98a2782b2947acd1f816494);
+        
+    
+        var popup_127d7f79d7f3b29269b0fcd958b227be = L.popup({
+  "maxWidth": 250,
+});
+
+        
+            
+                var html_960807178a3374c34f350ccb35c1c295 = $(`<div id="html_960807178a3374c34f350ccb35c1c295" style="width: 100.0%; height: 100.0%;">     <b>ไม่ระบุชื่อ</b><br>     📍 ไม่ระบุที่อยู่<br>     🌍 <a href="https://www.google.com/maps/search/?api=1&query=13.7231301,100.5108032" target="_blank">ดูบน Google Maps</a>     </div>`)[0];
+                popup_127d7f79d7f3b29269b0fcd958b227be.setContent(html_960807178a3374c34f350ccb35c1c295);
+            
+        
+
+        marker_bd3d16653a171140c3b9fc5443eddab9.bindPopup(popup_127d7f79d7f3b29269b0fcd958b227be)
+        ;
+
+        
+    
+    
+            var marker_a0214e88fd1c2d7938b35ba3cd0e464f = L.marker(
+                [13.7623884, 100.5257197],
+                {
+}
+            ).addTo(map_e4240bd6d3d85925082804bf55bdafa1);
+        
+    
+            var icon_571e1abaae2cf23eae0aafc3a5cf96fd = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "orange",
+  "iconColor": "white",
+  "icon": "bolt",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_a0214e88fd1c2d7938b35ba3cd0e464f.setIcon(icon_571e1abaae2cf23eae0aafc3a5cf96fd);
+        
+    
+        var popup_e0a0401746284c1bfbf3fb1e31175d53 = L.popup({
+  "maxWidth": 250,
+});
+
+        
+            
+                var html_1e780e0c9031ade4e47dfb0982447fdf = $(`<div id="html_1e780e0c9031ade4e47dfb0982447fdf" style="width: 100.0%; height: 100.0%;">     <b>ไม่ระบุชื่อ</b><br>     📍 ไม่ระบุที่อยู่<br>     🌍 <a href="https://www.google.com/maps/search/?api=1&query=13.7623884,100.5257197" target="_blank">ดูบน Google Maps</a>     </div>`)[0];
+                popup_e0a0401746284c1bfbf3fb1e31175d53.setContent(html_1e780e0c9031ade4e47dfb0982447fdf);
+            
+        
+
+        marker_a0214e88fd1c2d7938b35ba3cd0e464f.bindPopup(popup_e0a0401746284c1bfbf3fb1e31175d53)
+        ;
+
+        
+    
+    
+            var marker_3459a7a5c205bf213bd74d9a39843e50 = L.marker(
+                [13.7472435, 100.5285093],
+                {
+}
+            ).addTo(map_e4240bd6d3d85925082804bf55bdafa1);
+        
+    
+            var icon_dc91edc0528d2997247f66614b01252a = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "orange",
+  "iconColor": "white",
+  "icon": "bolt",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_3459a7a5c205bf213bd74d9a39843e50.setIcon(icon_dc91edc0528d2997247f66614b01252a);
+        
+    
+        var popup_e0aaa4352f8e13944b701e8e6ff959cc = L.popup({
+  "maxWidth": 250,
+});
+
+        
+            
+                var html_53f59cd06398d880888a447d28744b6b = $(`<div id="html_53f59cd06398d880888a447d28744b6b" style="width: 100.0%; height: 100.0%;">     <b>ไม่ระบุชื่อ</b><br>     📍 ไม่ระบุที่อยู่<br>     🌍 <a href="https://www.google.com/maps/search/?api=1&query=13.7472435,100.5285093" target="_blank">ดูบน Google Maps</a>     </div>`)[0];
+                popup_e0aaa4352f8e13944b701e8e6ff959cc.setContent(html_53f59cd06398d880888a447d28744b6b);
+            
+        
+
+        marker_3459a7a5c205bf213bd74d9a39843e50.bindPopup(popup_e0aaa4352f8e13944b701e8e6ff959cc)
+        ;
+
+        
+    
+    
+            var marker_a98eef3586bde90001e646dc9160437f = L.marker(
+                [13.7456947, 100.4711327],
+                {
+}
+            ).addTo(map_e4240bd6d3d85925082804bf55bdafa1);
+        
+    
+            var icon_d932fa66a5aaf51fbafbb12128d3098b = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "orange",
+  "iconColor": "white",
+  "icon": "bolt",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_a98eef3586bde90001e646dc9160437f.setIcon(icon_d932fa66a5aaf51fbafbb12128d3098b);
+        
+    
+        var popup_7c9d97887527f180b2894d669a619614 = L.popup({
+  "maxWidth": 250,
+});
+
+        
+            
+                var html_ef8fe383609d35a92545abab0592c016 = $(`<div id="html_ef8fe383609d35a92545abab0592c016" style="width: 100.0%; height: 100.0%;">     <b>ไม่ระบุชื่อ</b><br>     📍 ไม่ระบุที่อยู่<br>     🌍 <a href="https://www.google.com/maps/search/?api=1&query=13.7456947,100.4711327" target="_blank">ดูบน Google Maps</a>     </div>`)[0];
+                popup_7c9d97887527f180b2894d669a619614.setContent(html_ef8fe383609d35a92545abab0592c016);
+            
+        
+
+        marker_a98eef3586bde90001e646dc9160437f.bindPopup(popup_7c9d97887527f180b2894d669a619614)
+        ;
+
+        
+    
+    
+            var marker_e9443633f6c4d7afab60baddfd1fbdaa = L.marker(
+                [13.7241621, 100.5144212],
+                {
+}
+            ).addTo(map_e4240bd6d3d85925082804bf55bdafa1);
+        
+    
+            var icon_41c15a5b77b70b6e78dd55380fcf30e3 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "orange",
+  "iconColor": "white",
+  "icon": "bolt",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_e9443633f6c4d7afab60baddfd1fbdaa.setIcon(icon_41c15a5b77b70b6e78dd55380fcf30e3);
+        
+    
+        var popup_1ee8586a55c50051b2d748cef39ba060 = L.popup({
+  "maxWidth": 250,
+});
+
+        
+            
+                var html_b23642b72143d8a49cb034206c15c169 = $(`<div id="html_b23642b72143d8a49cb034206c15c169" style="width: 100.0%; height: 100.0%;">     <b>ไม่ระบุชื่อ</b><br>     📍 ไม่ระบุที่อยู่<br>     🌍 <a href="https://www.google.com/maps/search/?api=1&query=13.7241621,100.5144212" target="_blank">ดูบน Google Maps</a>     </div>`)[0];
+                popup_1ee8586a55c50051b2d748cef39ba060.setContent(html_b23642b72143d8a49cb034206c15c169);
+            
+        
+
+        marker_e9443633f6c4d7afab60baddfd1fbdaa.bindPopup(popup_1ee8586a55c50051b2d748cef39ba060)
+        ;
+
+        
+    
+    
+            var marker_f96a6cc86dd5fe38cadd6a962831462a = L.marker(
+                [13.72913, 100.4944],
+                {
+}
+            ).addTo(map_e4240bd6d3d85925082804bf55bdafa1);
+        
+    
+            var icon_9a2aeec40b1873aac268ce614ea71441 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "orange",
+  "iconColor": "white",
+  "icon": "bolt",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_f96a6cc86dd5fe38cadd6a962831462a.setIcon(icon_9a2aeec40b1873aac268ce614ea71441);
+        
+    
+        var popup_5bf3374295b25eaef291e3c43a0d197d = L.popup({
+  "maxWidth": 250,
+});
+
+        
+            
+                var html_1912d5dfb426a0f122816aa9ab275a2a = $(`<div id="html_1912d5dfb426a0f122816aa9ab275a2a" style="width: 100.0%; height: 100.0%;">     <b>ไม่ระบุชื่อ</b><br>     📍 ไม่ระบุที่อยู่<br>     🌍 <a href="https://www.google.com/maps/search/?api=1&query=13.72913,100.4944" target="_blank">ดูบน Google Maps</a>     </div>`)[0];
+                popup_5bf3374295b25eaef291e3c43a0d197d.setContent(html_1912d5dfb426a0f122816aa9ab275a2a);
+            
+        
+
+        marker_f96a6cc86dd5fe38cadd6a962831462a.bindPopup(popup_5bf3374295b25eaef291e3c43a0d197d)
+        ;
+
+        
+    
+    
+            var marker_5526cb8751fa9af62a4feaaf441a845d = L.marker(
+                [13.7447696, 100.5349813],
+                {
+}
+            ).addTo(map_e4240bd6d3d85925082804bf55bdafa1);
+        
+    
+            var icon_219a9890ea313237ef9367c416bcfdf3 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "orange",
+  "iconColor": "white",
+  "icon": "bolt",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_5526cb8751fa9af62a4feaaf441a845d.setIcon(icon_219a9890ea313237ef9367c416bcfdf3);
+        
+    
+        var popup_a23df7763b5bfdf68475e4814f7ddcbf = L.popup({
+  "maxWidth": 250,
+});
+
+        
+            
+                var html_b87902d207f79a24725099d48883d45b = $(`<div id="html_b87902d207f79a24725099d48883d45b" style="width: 100.0%; height: 100.0%;">     <b>ไม่ระบุชื่อ</b><br>     📍 ไม่ระบุที่อยู่<br>     🌍 <a href="https://www.google.com/maps/search/?api=1&query=13.7447696,100.5349813" target="_blank">ดูบน Google Maps</a>     </div>`)[0];
+                popup_a23df7763b5bfdf68475e4814f7ddcbf.setContent(html_b87902d207f79a24725099d48883d45b);
+            
+        
+
+        marker_5526cb8751fa9af62a4feaaf441a845d.bindPopup(popup_a23df7763b5bfdf68475e4814f7ddcbf)
+        ;
+
+        
+    
+    
+            var marker_2d9078a09605d4dc132705ddb70e83ee = L.marker(
+                [13.8711261, 100.4813247],
+                {
+}
+            ).addTo(map_e4240bd6d3d85925082804bf55bdafa1);
+        
+    
+            var icon_191fcbd22809711d3744e4cd85dc1886 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "orange",
+  "iconColor": "white",
+  "icon": "bolt",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_2d9078a09605d4dc132705ddb70e83ee.setIcon(icon_191fcbd22809711d3744e4cd85dc1886);
+        
+    
+        var popup_eb89139d60dd83f3e31ed797ab042d0a = L.popup({
+  "maxWidth": 250,
+});
+
+        
+            
+                var html_15b472c09dbae5b382635a58371e70c2 = $(`<div id="html_15b472c09dbae5b382635a58371e70c2" style="width: 100.0%; height: 100.0%;">     <b>ไม่ระบุชื่อ</b><br>     📍 ไม่ระบุที่อยู่<br>     🌍 <a href="https://www.google.com/maps/search/?api=1&query=13.8711261,100.4813247" target="_blank">ดูบน Google Maps</a>     </div>`)[0];
+                popup_eb89139d60dd83f3e31ed797ab042d0a.setContent(html_15b472c09dbae5b382635a58371e70c2);
+            
+        
+
+        marker_2d9078a09605d4dc132705ddb70e83ee.bindPopup(popup_eb89139d60dd83f3e31ed797ab042d0a)
+        ;
+
+        
+    
+    
+            var marker_6c6bbf69547b9e05e6d987182554aa0f = L.marker(
+                [13.8545027, 100.5122995],
+                {
+}
+            ).addTo(map_e4240bd6d3d85925082804bf55bdafa1);
+        
+    
+            var icon_6ce64ebd38bf4dada986fb79fdb97d8a = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "orange",
+  "iconColor": "white",
+  "icon": "bolt",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_6c6bbf69547b9e05e6d987182554aa0f.setIcon(icon_6ce64ebd38bf4dada986fb79fdb97d8a);
+        
+    
+        var popup_ad462320c4c44f331264f1e15ed8f2bd = L.popup({
+  "maxWidth": 250,
+});
+
+        
+            
+                var html_4bf76b3a9349f2739b7a7869dccb918f = $(`<div id="html_4bf76b3a9349f2739b7a7869dccb918f" style="width: 100.0%; height: 100.0%;">     <b>ไม่ระบุชื่อ</b><br>     📍 ไม่ระบุที่อยู่<br>     🌍 <a href="https://www.google.com/maps/search/?api=1&query=13.8545027,100.5122995" target="_blank">ดูบน Google Maps</a>     </div>`)[0];
+                popup_ad462320c4c44f331264f1e15ed8f2bd.setContent(html_4bf76b3a9349f2739b7a7869dccb918f);
+            
+        
+
+        marker_6c6bbf69547b9e05e6d987182554aa0f.bindPopup(popup_ad462320c4c44f331264f1e15ed8f2bd)
+        ;
+
+        
+    
+    
+            var marker_6785f3c9da3c744e2e16a56ee8c24a50 = L.marker(
+                [13.8887498, 100.5718398],
+                {
+}
+            ).addTo(map_e4240bd6d3d85925082804bf55bdafa1);
+        
+    
+            var icon_f920d750122f6154a69d68fc51a6fbe4 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "orange",
+  "iconColor": "white",
+  "icon": "bolt",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_6785f3c9da3c744e2e16a56ee8c24a50.setIcon(icon_f920d750122f6154a69d68fc51a6fbe4);
+        
+    
+        var popup_cd852006d488897d04f8dc0b80d33001 = L.popup({
+  "maxWidth": 250,
+});
+
+        
+            
+                var html_40f47171f90f3f33288b2be5d59b3553 = $(`<div id="html_40f47171f90f3f33288b2be5d59b3553" style="width: 100.0%; height: 100.0%;">     <b>ไม่ระบุชื่อ</b><br>     📍 ไม่ระบุที่อยู่<br>     🌍 <a href="https://www.google.com/maps/search/?api=1&query=13.8887498,100.5718398" target="_blank">ดูบน Google Maps</a>     </div>`)[0];
+                popup_cd852006d488897d04f8dc0b80d33001.setContent(html_40f47171f90f3f33288b2be5d59b3553);
+            
+        
+
+        marker_6785f3c9da3c744e2e16a56ee8c24a50.bindPopup(popup_cd852006d488897d04f8dc0b80d33001)
+        ;
+
+        
+    
+    
+            var marker_69b11cadc8747dcad922e665c5897666 = L.marker(
+                [13.8636499, 100.492526],
+                {
+}
+            ).addTo(map_e4240bd6d3d85925082804bf55bdafa1);
+        
+    
+            var icon_00d5507f1d8ad31482a3945ecc13ff50 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "orange",
+  "iconColor": "white",
+  "icon": "bolt",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_69b11cadc8747dcad922e665c5897666.setIcon(icon_00d5507f1d8ad31482a3945ecc13ff50);
+        
+    
+        var popup_a1b0747ba8cb02ebe32826e8ce584e45 = L.popup({
+  "maxWidth": 250,
+});
+
+        
+            
+                var html_3aa141ed96506e918ff007f532789127 = $(`<div id="html_3aa141ed96506e918ff007f532789127" style="width: 100.0%; height: 100.0%;">     <b>ไม่ระบุชื่อ</b><br>     📍 ไม่ระบุที่อยู่<br>     🌍 <a href="https://www.google.com/maps/search/?api=1&query=13.8636499,100.492526" target="_blank">ดูบน Google Maps</a>     </div>`)[0];
+                popup_a1b0747ba8cb02ebe32826e8ce584e45.setContent(html_3aa141ed96506e918ff007f532789127);
+            
+        
+
+        marker_69b11cadc8747dcad922e665c5897666.bindPopup(popup_a1b0747ba8cb02ebe32826e8ce584e45)
+        ;
+
+        
+    
+    
+            var marker_c9e09f5ca65e6a059c93b08bf1f61e71 = L.marker(
+                [13.9057629, 100.525215],
+                {
+}
+            ).addTo(map_e4240bd6d3d85925082804bf55bdafa1);
+        
+    
+            var icon_2d462000ea99e0bb0c2057520328ebdc = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "orange",
+  "iconColor": "white",
+  "icon": "bolt",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_c9e09f5ca65e6a059c93b08bf1f61e71.setIcon(icon_2d462000ea99e0bb0c2057520328ebdc);
+        
+    
+        var popup_404d1975bb7df442d8e5bcc0818e48e2 = L.popup({
+  "maxWidth": 250,
+});
+
+        
+            
+                var html_861daf9bc78987e4ba94fab7ea42f4a9 = $(`<div id="html_861daf9bc78987e4ba94fab7ea42f4a9" style="width: 100.0%; height: 100.0%;">     <b>ไม่ระบุชื่อ</b><br>     📍 ไม่ระบุที่อยู่<br>     🌍 <a href="https://www.google.com/maps/search/?api=1&query=13.9057629,100.525215" target="_blank">ดูบน Google Maps</a>     </div>`)[0];
+                popup_404d1975bb7df442d8e5bcc0818e48e2.setContent(html_861daf9bc78987e4ba94fab7ea42f4a9);
+            
+        
+
+        marker_c9e09f5ca65e6a059c93b08bf1f61e71.bindPopup(popup_404d1975bb7df442d8e5bcc0818e48e2)
+        ;
+
+        
+    
+    
+            var marker_75222dbeaabf3634149bf43da9477856 = L.marker(
+                [13.8638534, 100.5049691],
+                {
+}
+            ).addTo(map_e4240bd6d3d85925082804bf55bdafa1);
+        
+    
+            var icon_c526719c49b421ca7da92afdd49180c3 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "orange",
+  "iconColor": "white",
+  "icon": "bolt",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_75222dbeaabf3634149bf43da9477856.setIcon(icon_c526719c49b421ca7da92afdd49180c3);
+        
+    
+        var popup_b039fb0d336521aeb61145a26d1aeae9 = L.popup({
+  "maxWidth": 250,
+});
+
+        
+            
+                var html_27b316e2352922c54955113fdab7ee3a = $(`<div id="html_27b316e2352922c54955113fdab7ee3a" style="width: 100.0%; height: 100.0%;">     <b>ไม่ระบุชื่อ</b><br>     📍 ไม่ระบุที่อยู่<br>     🌍 <a href="https://www.google.com/maps/search/?api=1&query=13.8638534,100.5049691" target="_blank">ดูบน Google Maps</a>     </div>`)[0];
+                popup_b039fb0d336521aeb61145a26d1aeae9.setContent(html_27b316e2352922c54955113fdab7ee3a);
+            
+        
+
+        marker_75222dbeaabf3634149bf43da9477856.bindPopup(popup_b039fb0d336521aeb61145a26d1aeae9)
+        ;
+
+        
+    
+    
+            var marker_e6a00531093573c919dd0eb7bbaa1d9b = L.marker(
+                [13.9375721, 100.5398922],
+                {
+}
+            ).addTo(map_e4240bd6d3d85925082804bf55bdafa1);
+        
+    
+            var icon_82f2587eba1c7d78b8731d1004ca35fe = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "orange",
+  "iconColor": "white",
+  "icon": "bolt",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_e6a00531093573c919dd0eb7bbaa1d9b.setIcon(icon_82f2587eba1c7d78b8731d1004ca35fe);
+        
+    
+        var popup_67ccdb59eaabfaab8c76279b14feb3fa = L.popup({
+  "maxWidth": 250,
+});
+
+        
+            
+                var html_4f149059827250409921e7b8d1bf5e47 = $(`<div id="html_4f149059827250409921e7b8d1bf5e47" style="width: 100.0%; height: 100.0%;">     <b>ไม่ระบุชื่อ</b><br>     📍 ไม่ระบุที่อยู่<br>     🌍 <a href="https://www.google.com/maps/search/?api=1&query=13.9375721,100.5398922" target="_blank">ดูบน Google Maps</a>     </div>`)[0];
+                popup_67ccdb59eaabfaab8c76279b14feb3fa.setContent(html_4f149059827250409921e7b8d1bf5e47);
+            
+        
+
+        marker_e6a00531093573c919dd0eb7bbaa1d9b.bindPopup(popup_67ccdb59eaabfaab8c76279b14feb3fa)
+        ;
+
+        
+    
+    
+            var marker_1f101e254694104c4bc79289ea9adc48 = L.marker(
+                [13.8719103, 100.5283126],
+                {
+}
+            ).addTo(map_e4240bd6d3d85925082804bf55bdafa1);
+        
+    
+            var icon_c70720a2c4dfdd8029ee4883e5f68db9 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "orange",
+  "iconColor": "white",
+  "icon": "bolt",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_1f101e254694104c4bc79289ea9adc48.setIcon(icon_c70720a2c4dfdd8029ee4883e5f68db9);
+        
+    
+        var popup_a151acf52f28c3bb86bb614eefd7e32b = L.popup({
+  "maxWidth": 250,
+});
+
+        
+            
+                var html_2ccfcb3f6b377f672a56674996def6ff = $(`<div id="html_2ccfcb3f6b377f672a56674996def6ff" style="width: 100.0%; height: 100.0%;">     <b>ไม่ระบุชื่อ</b><br>     📍 ไม่ระบุที่อยู่<br>     🌍 <a href="https://www.google.com/maps/search/?api=1&query=13.8719103,100.5283126" target="_blank">ดูบน Google Maps</a>     </div>`)[0];
+                popup_a151acf52f28c3bb86bb614eefd7e32b.setContent(html_2ccfcb3f6b377f672a56674996def6ff);
+            
+        
+
+        marker_1f101e254694104c4bc79289ea9adc48.bindPopup(popup_a151acf52f28c3bb86bb614eefd7e32b)
+        ;
+
+        
+    
+    
+            var marker_1378b49abd0a853e0dcb6957a2e6f619 = L.marker(
+                [13.872465, 100.4814495],
+                {
+}
+            ).addTo(map_e4240bd6d3d85925082804bf55bdafa1);
+        
+    
+            var icon_2b8664f563c753c87007a34d908e82e4 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "orange",
+  "iconColor": "white",
+  "icon": "bolt",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_1378b49abd0a853e0dcb6957a2e6f619.setIcon(icon_2b8664f563c753c87007a34d908e82e4);
+        
+    
+        var popup_4b6f5720edce67fb9a2375201e733222 = L.popup({
+  "maxWidth": 250,
+});
+
+        
+            
+                var html_67d313bc151582bb2347e283e37afd95 = $(`<div id="html_67d313bc151582bb2347e283e37afd95" style="width: 100.0%; height: 100.0%;">     <b>ไม่ระบุชื่อ</b><br>     📍 ไม่ระบุที่อยู่<br>     🌍 <a href="https://www.google.com/maps/search/?api=1&query=13.872465,100.4814495" target="_blank">ดูบน Google Maps</a>     </div>`)[0];
+                popup_4b6f5720edce67fb9a2375201e733222.setContent(html_67d313bc151582bb2347e283e37afd95);
+            
+        
+
+        marker_1378b49abd0a853e0dcb6957a2e6f619.bindPopup(popup_4b6f5720edce67fb9a2375201e733222)
+        ;
+
+        
+    
+    
+            var marker_be396cd029be3e54ceea5f9eabecc046 = L.marker(
+                [13.9330441, 100.5345645],
+                {
+}
+            ).addTo(map_e4240bd6d3d85925082804bf55bdafa1);
+        
+    
+            var icon_8770bb532392ce1ded9bebef15a471b8 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "orange",
+  "iconColor": "white",
+  "icon": "bolt",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_be396cd029be3e54ceea5f9eabecc046.setIcon(icon_8770bb532392ce1ded9bebef15a471b8);
+        
+    
+        var popup_9ae8c752ea6c3591925965578d17aef1 = L.popup({
+  "maxWidth": 250,
+});
+
+        
+            
+                var html_d4384dda95e1ab51c7ddd0fbfbe89369 = $(`<div id="html_d4384dda95e1ab51c7ddd0fbfbe89369" style="width: 100.0%; height: 100.0%;">     <b>ไม่ระบุชื่อ</b><br>     📍 ไม่ระบุที่อยู่<br>     🌍 <a href="https://www.google.com/maps/search/?api=1&query=13.9330441,100.5345645" target="_blank">ดูบน Google Maps</a>     </div>`)[0];
+                popup_9ae8c752ea6c3591925965578d17aef1.setContent(html_d4384dda95e1ab51c7ddd0fbfbe89369);
+            
+        
+
+        marker_be396cd029be3e54ceea5f9eabecc046.bindPopup(popup_9ae8c752ea6c3591925965578d17aef1)
+        ;
+
+        
+    
+    
+            var marker_ca2152423c57e3c151dbe840768cade5 = L.marker(
+                [13.899997, 100.450674],
+                {
+}
+            ).addTo(map_e4240bd6d3d85925082804bf55bdafa1);
+        
+    
+            var icon_e23366efdb50dc83e38dd6ed9d9e3bf6 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "orange",
+  "iconColor": "white",
+  "icon": "bolt",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_ca2152423c57e3c151dbe840768cade5.setIcon(icon_e23366efdb50dc83e38dd6ed9d9e3bf6);
+        
+    
+        var popup_154e76317630e8565511bb4672a33019 = L.popup({
+  "maxWidth": 250,
+});
+
+        
+            
+                var html_ba61b7168d2eb3df7406a956f3917f70 = $(`<div id="html_ba61b7168d2eb3df7406a956f3917f70" style="width: 100.0%; height: 100.0%;">     <b>ไม่ระบุชื่อ</b><br>     📍 ไม่ระบุที่อยู่<br>     🌍 <a href="https://www.google.com/maps/search/?api=1&query=13.899997,100.450674" target="_blank">ดูบน Google Maps</a>     </div>`)[0];
+                popup_154e76317630e8565511bb4672a33019.setContent(html_ba61b7168d2eb3df7406a956f3917f70);
+            
+        
+
+        marker_ca2152423c57e3c151dbe840768cade5.bindPopup(popup_154e76317630e8565511bb4672a33019)
+        ;
+
+        
+    
+    
+            var marker_5f5741734491e23e593c4612887f07e6 = L.marker(
+                [13.9052907, 100.5252609],
+                {
+}
+            ).addTo(map_e4240bd6d3d85925082804bf55bdafa1);
+        
+    
+            var icon_f3a8dc30b2e5d0f0424dab9b0acda42c = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "orange",
+  "iconColor": "white",
+  "icon": "bolt",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_5f5741734491e23e593c4612887f07e6.setIcon(icon_f3a8dc30b2e5d0f0424dab9b0acda42c);
+        
+    
+        var popup_cfc16237c4c0f56de6f623f4257fc69c = L.popup({
+  "maxWidth": 250,
+});
+
+        
+            
+                var html_cc49c84d1aa0f85c6dd82b24bd22e4f6 = $(`<div id="html_cc49c84d1aa0f85c6dd82b24bd22e4f6" style="width: 100.0%; height: 100.0%;">     <b>ไม่ระบุชื่อ</b><br>     📍 ไม่ระบุที่อยู่<br>     🌍 <a href="https://www.google.com/maps/search/?api=1&query=13.9052907,100.5252609" target="_blank">ดูบน Google Maps</a>     </div>`)[0];
+                popup_cfc16237c4c0f56de6f623f4257fc69c.setContent(html_cc49c84d1aa0f85c6dd82b24bd22e4f6);
+            
+        
+
+        marker_5f5741734491e23e593c4612887f07e6.bindPopup(popup_cfc16237c4c0f56de6f623f4257fc69c)
+        ;
+
+        
+    
+    
+            var marker_a1efdf94b0e59c93810cb2622712ec4c = L.marker(
+                [13.9387083, 100.5541613],
+                {
+}
+            ).addTo(map_e4240bd6d3d85925082804bf55bdafa1);
+        
+    
+            var icon_80cb05fb1e5dac7d414ee0a0428cea8a = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "orange",
+  "iconColor": "white",
+  "icon": "bolt",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_a1efdf94b0e59c93810cb2622712ec4c.setIcon(icon_80cb05fb1e5dac7d414ee0a0428cea8a);
+        
+    
+        var popup_00012c5019595e4a8bbe27202ba93068 = L.popup({
+  "maxWidth": 250,
+});
+
+        
+            
+                var html_f49c180d2040f212853c7833763a8850 = $(`<div id="html_f49c180d2040f212853c7833763a8850" style="width: 100.0%; height: 100.0%;">     <b>ไม่ระบุชื่อ</b><br>     📍 ไม่ระบุที่อยู่<br>     🌍 <a href="https://www.google.com/maps/search/?api=1&query=13.9387083,100.5541613" target="_blank">ดูบน Google Maps</a>     </div>`)[0];
+                popup_00012c5019595e4a8bbe27202ba93068.setContent(html_f49c180d2040f212853c7833763a8850);
+            
+        
+
+        marker_a1efdf94b0e59c93810cb2622712ec4c.bindPopup(popup_00012c5019595e4a8bbe27202ba93068)
+        ;
+
+        
+    
+    
+            var marker_d50e8b961ba0510060216f3105ff7844 = L.marker(
+                [13.8668919, 100.5213794],
+                {
+}
+            ).addTo(map_e4240bd6d3d85925082804bf55bdafa1);
+        
+    
+            var icon_5c59e68a2bd6c5bc16cf05c07a22ff83 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "orange",
+  "iconColor": "white",
+  "icon": "bolt",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_d50e8b961ba0510060216f3105ff7844.setIcon(icon_5c59e68a2bd6c5bc16cf05c07a22ff83);
+        
+    
+        var popup_a13409dfd9af8ea8216219c8dfd170fd = L.popup({
+  "maxWidth": 250,
+});
+
+        
+            
+                var html_82f3547827c11aab300155dc11a5937c = $(`<div id="html_82f3547827c11aab300155dc11a5937c" style="width: 100.0%; height: 100.0%;">     <b>ไม่ระบุชื่อ</b><br>     📍 ไม่ระบุที่อยู่<br>     🌍 <a href="https://www.google.com/maps/search/?api=1&query=13.8668919,100.5213794" target="_blank">ดูบน Google Maps</a>     </div>`)[0];
+                popup_a13409dfd9af8ea8216219c8dfd170fd.setContent(html_82f3547827c11aab300155dc11a5937c);
+            
+        
+
+        marker_d50e8b961ba0510060216f3105ff7844.bindPopup(popup_a13409dfd9af8ea8216219c8dfd170fd)
+        ;
+
+        
+    
+    
+            var marker_0ef14776f5658bb1039588257b621802 = L.marker(
+                [13.9209602, 100.5170936],
+                {
+}
+            ).addTo(map_e4240bd6d3d85925082804bf55bdafa1);
+        
+    
+            var icon_f6117fcff69de8e726eb3f19b7548edf = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "orange",
+  "iconColor": "white",
+  "icon": "bolt",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_0ef14776f5658bb1039588257b621802.setIcon(icon_f6117fcff69de8e726eb3f19b7548edf);
+        
+    
+        var popup_fdc3772efbdf18a47bb8aa397f0d0a14 = L.popup({
+  "maxWidth": 250,
+});
+
+        
+            
+                var html_e20fc8d5d0a605ef2239cb8d7e8bbe02 = $(`<div id="html_e20fc8d5d0a605ef2239cb8d7e8bbe02" style="width: 100.0%; height: 100.0%;">     <b>ไม่ระบุชื่อ</b><br>     📍 ไม่ระบุที่อยู่<br>     🌍 <a href="https://www.google.com/maps/search/?api=1&query=13.9209602,100.5170936" target="_blank">ดูบน Google Maps</a>     </div>`)[0];
+                popup_fdc3772efbdf18a47bb8aa397f0d0a14.setContent(html_e20fc8d5d0a605ef2239cb8d7e8bbe02);
+            
+        
+
+        marker_0ef14776f5658bb1039588257b621802.bindPopup(popup_fdc3772efbdf18a47bb8aa397f0d0a14)
+        ;
+
+        
+    
+    
+            var marker_f2472166addfea8b47c73a01dc4357bb = L.marker(
+                [13.9147794, 100.4517717],
+                {
+}
+            ).addTo(map_e4240bd6d3d85925082804bf55bdafa1);
+        
+    
+            var icon_56ee27a5008bd9e29c0c966dcadfe8e9 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "orange",
+  "iconColor": "white",
+  "icon": "bolt",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_f2472166addfea8b47c73a01dc4357bb.setIcon(icon_56ee27a5008bd9e29c0c966dcadfe8e9);
+        
+    
+        var popup_45c38247919ed93c9a937f89ee643c13 = L.popup({
+  "maxWidth": 250,
+});
+
+        
+            
+                var html_a463ad60c6bba5ebe092c2f77762e062 = $(`<div id="html_a463ad60c6bba5ebe092c2f77762e062" style="width: 100.0%; height: 100.0%;">     <b>ไม่ระบุชื่อ</b><br>     📍 ไม่ระบุที่อยู่<br>     🌍 <a href="https://www.google.com/maps/search/?api=1&query=13.9147794,100.4517717" target="_blank">ดูบน Google Maps</a>     </div>`)[0];
+                popup_45c38247919ed93c9a937f89ee643c13.setContent(html_a463ad60c6bba5ebe092c2f77762e062);
+            
+        
+
+        marker_f2472166addfea8b47c73a01dc4357bb.bindPopup(popup_45c38247919ed93c9a937f89ee643c13)
+        ;
+
+        
+    
+    
+            var marker_c329388119bca398805a9d8d78dcee22 = L.marker(
+                [13.8643717, 100.5466078],
+                {
+}
+            ).addTo(map_e4240bd6d3d85925082804bf55bdafa1);
+        
+    
+            var icon_4a20b33769040555d0c7bbb5f0dfae28 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "orange",
+  "iconColor": "white",
+  "icon": "bolt",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_c329388119bca398805a9d8d78dcee22.setIcon(icon_4a20b33769040555d0c7bbb5f0dfae28);
+        
+    
+        var popup_1ca6ca5d6d78f47a5f089c72de469a9a = L.popup({
+  "maxWidth": 250,
+});
+
+        
+            
+                var html_9f309dacf8b91d763ea5c7a8277021e1 = $(`<div id="html_9f309dacf8b91d763ea5c7a8277021e1" style="width: 100.0%; height: 100.0%;">     <b>ไม่ระบุชื่อ</b><br>     📍 ไม่ระบุที่อยู่<br>     🌍 <a href="https://www.google.com/maps/search/?api=1&query=13.8643717,100.5466078" target="_blank">ดูบน Google Maps</a>     </div>`)[0];
+                popup_1ca6ca5d6d78f47a5f089c72de469a9a.setContent(html_9f309dacf8b91d763ea5c7a8277021e1);
+            
+        
+
+        marker_c329388119bca398805a9d8d78dcee22.bindPopup(popup_1ca6ca5d6d78f47a5f089c72de469a9a)
+        ;
+
+        
+    
+    
+            var marker_1f6b3cc5054ec6c89439e8a58b90125b = L.marker(
+                [13.8525916, 100.5295516],
+                {
+}
+            ).addTo(map_e4240bd6d3d85925082804bf55bdafa1);
+        
+    
+            var icon_d1c8f06e3a39d57e74db1d63000d869b = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "orange",
+  "iconColor": "white",
+  "icon": "bolt",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_1f6b3cc5054ec6c89439e8a58b90125b.setIcon(icon_d1c8f06e3a39d57e74db1d63000d869b);
+        
+    
+        var popup_068e32dd4f90e6272ee5acd7a4d4afcc = L.popup({
+  "maxWidth": 250,
+});
+
+        
+            
+                var html_8c9c92bcbcc5699c193e326fdb4a837d = $(`<div id="html_8c9c92bcbcc5699c193e326fdb4a837d" style="width: 100.0%; height: 100.0%;">     <b>ไม่ระบุชื่อ</b><br>     📍 ไม่ระบุที่อยู่<br>     🌍 <a href="https://www.google.com/maps/search/?api=1&query=13.8525916,100.5295516" target="_blank">ดูบน Google Maps</a>     </div>`)[0];
+                popup_068e32dd4f90e6272ee5acd7a4d4afcc.setContent(html_8c9c92bcbcc5699c193e326fdb4a837d);
+            
+        
+
+        marker_1f6b3cc5054ec6c89439e8a58b90125b.bindPopup(popup_068e32dd4f90e6272ee5acd7a4d4afcc)
+        ;
+
+        
+    
+    
+            var marker_2241ac27fce5473326a0777c83ed4a02 = L.marker(
+                [13.9149447, 100.5426421],
+                {
+}
+            ).addTo(map_e4240bd6d3d85925082804bf55bdafa1);
+        
+    
+            var icon_4abe37036a938e49ab5058be96b4733f = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "orange",
+  "iconColor": "white",
+  "icon": "bolt",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_2241ac27fce5473326a0777c83ed4a02.setIcon(icon_4abe37036a938e49ab5058be96b4733f);
+        
+    
+        var popup_bbb4c42815ff1a8815c5936dd5537f52 = L.popup({
+  "maxWidth": 250,
+});
+
+        
+            
+                var html_6bab2677ed036f0c1c626da17dded84e = $(`<div id="html_6bab2677ed036f0c1c626da17dded84e" style="width: 100.0%; height: 100.0%;">     <b>ไม่ระบุชื่อ</b><br>     📍 ไม่ระบุที่อยู่<br>     🌍 <a href="https://www.google.com/maps/search/?api=1&query=13.9149447,100.5426421" target="_blank">ดูบน Google Maps</a>     </div>`)[0];
+                popup_bbb4c42815ff1a8815c5936dd5537f52.setContent(html_6bab2677ed036f0c1c626da17dded84e);
+            
+        
+
+        marker_2241ac27fce5473326a0777c83ed4a02.bindPopup(popup_bbb4c42815ff1a8815c5936dd5537f52)
+        ;
+
+        
+    
+    
+            var marker_836c9f6a690cf485a544f1a3dfa6fd2d = L.marker(
+                [13.8934984, 100.5568576],
+                {
+}
+            ).addTo(map_e4240bd6d3d85925082804bf55bdafa1);
+        
+    
+            var icon_180314d2c0623af5528aff10c6c3d664 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "orange",
+  "iconColor": "white",
+  "icon": "bolt",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_836c9f6a690cf485a544f1a3dfa6fd2d.setIcon(icon_180314d2c0623af5528aff10c6c3d664);
+        
+    
+        var popup_9392ebcc085be5c9f9cac122dc2a2d81 = L.popup({
+  "maxWidth": 250,
+});
+
+        
+            
+                var html_ab5bb689b2bef4c1c9463af2bd967ade = $(`<div id="html_ab5bb689b2bef4c1c9463af2bd967ade" style="width: 100.0%; height: 100.0%;">     <b>ไม่ระบุชื่อ</b><br>     📍 ไม่ระบุที่อยู่<br>     🌍 <a href="https://www.google.com/maps/search/?api=1&query=13.8934984,100.5568576" target="_blank">ดูบน Google Maps</a>     </div>`)[0];
+                popup_9392ebcc085be5c9f9cac122dc2a2d81.setContent(html_ab5bb689b2bef4c1c9463af2bd967ade);
+            
+        
+
+        marker_836c9f6a690cf485a544f1a3dfa6fd2d.bindPopup(popup_9392ebcc085be5c9f9cac122dc2a2d81)
+        ;
+
+        
+    
+    
+            var marker_3a3fc6c8eef58d2e4f388ac0f97527d2 = L.marker(
+                [13.6990295, 100.7051045],
+                {
+}
+            ).addTo(map_e4240bd6d3d85925082804bf55bdafa1);
+        
+    
+            var icon_16b028b4be16e14219cfef26c624ed73 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "orange",
+  "iconColor": "white",
+  "icon": "bolt",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_3a3fc6c8eef58d2e4f388ac0f97527d2.setIcon(icon_16b028b4be16e14219cfef26c624ed73);
+        
+    
+        var popup_df36b0b020061d96d471cab3cbd05d4e = L.popup({
+  "maxWidth": 250,
+});
+
+        
+            
+                var html_157b5a024e8160803d00a5ddee348165 = $(`<div id="html_157b5a024e8160803d00a5ddee348165" style="width: 100.0%; height: 100.0%;">     <b>ไม่ระบุชื่อ</b><br>     📍 ไม่ระบุที่อยู่<br>     🌍 <a href="https://www.google.com/maps/search/?api=1&query=13.6990295,100.7051045" target="_blank">ดูบน Google Maps</a>     </div>`)[0];
+                popup_df36b0b020061d96d471cab3cbd05d4e.setContent(html_157b5a024e8160803d00a5ddee348165);
+            
+        
+
+        marker_3a3fc6c8eef58d2e4f388ac0f97527d2.bindPopup(popup_df36b0b020061d96d471cab3cbd05d4e)
+        ;
+
+        
+    
+    
+            var marker_66a10f42901609ff393a694cffeaaaa6 = L.marker(
+                [13.7451871, 100.7469841],
+                {
+}
+            ).addTo(map_e4240bd6d3d85925082804bf55bdafa1);
+        
+    
+            var icon_7bb96ccb9a21801782fa7a12da135fbf = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "orange",
+  "iconColor": "white",
+  "icon": "bolt",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_66a10f42901609ff393a694cffeaaaa6.setIcon(icon_7bb96ccb9a21801782fa7a12da135fbf);
+        
+    
+        var popup_be79ccb7ccfae83f0eb766291a48e1d9 = L.popup({
+  "maxWidth": 250,
+});
+
+        
+            
+                var html_3dbe384d5a503528019157f6315ec620 = $(`<div id="html_3dbe384d5a503528019157f6315ec620" style="width: 100.0%; height: 100.0%;">     <b>ไม่ระบุชื่อ</b><br>     📍 ไม่ระบุที่อยู่<br>     🌍 <a href="https://www.google.com/maps/search/?api=1&query=13.7451871,100.7469841" target="_blank">ดูบน Google Maps</a>     </div>`)[0];
+                popup_be79ccb7ccfae83f0eb766291a48e1d9.setContent(html_3dbe384d5a503528019157f6315ec620);
+            
+        
+
+        marker_66a10f42901609ff393a694cffeaaaa6.bindPopup(popup_be79ccb7ccfae83f0eb766291a48e1d9)
+        ;
+
+        
+    
+    
+            var marker_d48f214c044b55c1ad28b37643b69db6 = L.marker(
+                [13.764083, 100.651831],
+                {
+}
+            ).addTo(map_e4240bd6d3d85925082804bf55bdafa1);
+        
+    
+            var icon_554854ae312b842d8fed177a51eebb63 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "orange",
+  "iconColor": "white",
+  "icon": "bolt",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_d48f214c044b55c1ad28b37643b69db6.setIcon(icon_554854ae312b842d8fed177a51eebb63);
+        
+    
+        var popup_44155216fabcd1fe09ac17e2cee2577a = L.popup({
+  "maxWidth": 250,
+});
+
+        
+            
+                var html_fa9c6e2e4a863568dc597eebc109fabb = $(`<div id="html_fa9c6e2e4a863568dc597eebc109fabb" style="width: 100.0%; height: 100.0%;">     <b>ไม่ระบุชื่อ</b><br>     📍 ไม่ระบุที่อยู่<br>     🌍 <a href="https://www.google.com/maps/search/?api=1&query=13.764083,100.651831" target="_blank">ดูบน Google Maps</a>     </div>`)[0];
+                popup_44155216fabcd1fe09ac17e2cee2577a.setContent(html_fa9c6e2e4a863568dc597eebc109fabb);
+            
+        
+
+        marker_d48f214c044b55c1ad28b37643b69db6.bindPopup(popup_44155216fabcd1fe09ac17e2cee2577a)
+        ;
+
+        
+    
+    
+            var marker_65f09b43b02f104d1be14ccd33b69135 = L.marker(
+                [13.8108179, 100.6645143],
+                {
+}
+            ).addTo(map_e4240bd6d3d85925082804bf55bdafa1);
+        
+    
+            var icon_974585f8c18420372b1b9e7204ca5ce2 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "orange",
+  "iconColor": "white",
+  "icon": "bolt",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_65f09b43b02f104d1be14ccd33b69135.setIcon(icon_974585f8c18420372b1b9e7204ca5ce2);
+        
+    
+        var popup_85cdb7ca0cd702333b571f44209430e3 = L.popup({
+  "maxWidth": 250,
+});
+
+        
+            
+                var html_e41824d7ff5cd08eec33f643eac70ded = $(`<div id="html_e41824d7ff5cd08eec33f643eac70ded" style="width: 100.0%; height: 100.0%;">     <b>ไม่ระบุชื่อ</b><br>     📍 ไม่ระบุที่อยู่<br>     🌍 <a href="https://www.google.com/maps/search/?api=1&query=13.8108179,100.6645143" target="_blank">ดูบน Google Maps</a>     </div>`)[0];
+                popup_85cdb7ca0cd702333b571f44209430e3.setContent(html_e41824d7ff5cd08eec33f643eac70ded);
+            
+        
+
+        marker_65f09b43b02f104d1be14ccd33b69135.bindPopup(popup_85cdb7ca0cd702333b571f44209430e3)
+        ;
+
+        
+    
+    
+            var marker_9926848a319cc26181595b3989c1ac12 = L.marker(
+                [13.7222543, 100.7344284],
+                {
+}
+            ).addTo(map_e4240bd6d3d85925082804bf55bdafa1);
+        
+    
+            var icon_8313e35743ae4489f6242e7b77608d16 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "orange",
+  "iconColor": "white",
+  "icon": "bolt",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_9926848a319cc26181595b3989c1ac12.setIcon(icon_8313e35743ae4489f6242e7b77608d16);
+        
+    
+        var popup_18038cee751073c8a8f8397f0494308a = L.popup({
+  "maxWidth": 250,
+});
+
+        
+            
+                var html_05a46f6ebff010d189473a3ff086d588 = $(`<div id="html_05a46f6ebff010d189473a3ff086d588" style="width: 100.0%; height: 100.0%;">     <b>ไม่ระบุชื่อ</b><br>     📍 ไม่ระบุที่อยู่<br>     🌍 <a href="https://www.google.com/maps/search/?api=1&query=13.7222543,100.7344284" target="_blank">ดูบน Google Maps</a>     </div>`)[0];
+                popup_18038cee751073c8a8f8397f0494308a.setContent(html_05a46f6ebff010d189473a3ff086d588);
+            
+        
+
+        marker_9926848a319cc26181595b3989c1ac12.bindPopup(popup_18038cee751073c8a8f8397f0494308a)
+        ;
+
+        
+    
+    
+            var marker_47eaed8765829d5615496070d8948d0a = L.marker(
+                [13.7275198, 100.6418157],
+                {
+}
+            ).addTo(map_e4240bd6d3d85925082804bf55bdafa1);
+        
+    
+            var icon_bf968c194f6aac64a2f4f8ac97d22c11 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "orange",
+  "iconColor": "white",
+  "icon": "bolt",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_47eaed8765829d5615496070d8948d0a.setIcon(icon_bf968c194f6aac64a2f4f8ac97d22c11);
+        
+    
+        var popup_30e2ee7b9035edfe20ebd1b9c90400a7 = L.popup({
+  "maxWidth": 250,
+});
+
+        
+            
+                var html_fa2309dde60f3ff4c3d1f4cbfb4041c2 = $(`<div id="html_fa2309dde60f3ff4c3d1f4cbfb4041c2" style="width: 100.0%; height: 100.0%;">     <b>ไม่ระบุชื่อ</b><br>     📍 ไม่ระบุที่อยู่<br>     🌍 <a href="https://www.google.com/maps/search/?api=1&query=13.7275198,100.6418157" target="_blank">ดูบน Google Maps</a>     </div>`)[0];
+                popup_30e2ee7b9035edfe20ebd1b9c90400a7.setContent(html_fa2309dde60f3ff4c3d1f4cbfb4041c2);
+            
+        
+
+        marker_47eaed8765829d5615496070d8948d0a.bindPopup(popup_30e2ee7b9035edfe20ebd1b9c90400a7)
+        ;
+
+        
+    
+    
+            var marker_7f17bbc65fcbe7b77658e22ad097eb5b = L.marker(
+                [13.7971964, 100.7142593],
+                {
+}
+            ).addTo(map_e4240bd6d3d85925082804bf55bdafa1);
+        
+    
+            var icon_b19e8088f35574edde063f2bd1f0f014 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "orange",
+  "iconColor": "white",
+  "icon": "bolt",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_7f17bbc65fcbe7b77658e22ad097eb5b.setIcon(icon_b19e8088f35574edde063f2bd1f0f014);
+        
+    
+        var popup_cb7ca9311952650234a6958a889a5514 = L.popup({
+  "maxWidth": 250,
+});
+
+        
+            
+                var html_1dcd8aa6cd5964c2f7dce0cb75e1dde7 = $(`<div id="html_1dcd8aa6cd5964c2f7dce0cb75e1dde7" style="width: 100.0%; height: 100.0%;">     <b>ไม่ระบุชื่อ</b><br>     📍 ไม่ระบุที่อยู่<br>     🌍 <a href="https://www.google.com/maps/search/?api=1&query=13.7971964,100.7142593" target="_blank">ดูบน Google Maps</a>     </div>`)[0];
+                popup_cb7ca9311952650234a6958a889a5514.setContent(html_1dcd8aa6cd5964c2f7dce0cb75e1dde7);
+            
+        
+
+        marker_7f17bbc65fcbe7b77658e22ad097eb5b.bindPopup(popup_cb7ca9311952650234a6958a889a5514)
+        ;
+
+        
+    
+    
+            var marker_fc178f50e4058e516c78e1e989b5ae77 = L.marker(
+                [13.7316873, 100.6410794],
+                {
+}
+            ).addTo(map_e4240bd6d3d85925082804bf55bdafa1);
+        
+    
+            var icon_37bc765517dea6a2b991e17fa1506f5e = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "orange",
+  "iconColor": "white",
+  "icon": "bolt",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_fc178f50e4058e516c78e1e989b5ae77.setIcon(icon_37bc765517dea6a2b991e17fa1506f5e);
+        
+    
+        var popup_27f4e104f8fd12974955f1ad2641fca6 = L.popup({
+  "maxWidth": 250,
+});
+
+        
+            
+                var html_75d3f5f9897862b67babda49d9d81fd2 = $(`<div id="html_75d3f5f9897862b67babda49d9d81fd2" style="width: 100.0%; height: 100.0%;">     <b>ไม่ระบุชื่อ</b><br>     📍 ไม่ระบุที่อยู่<br>     🌍 <a href="https://www.google.com/maps/search/?api=1&query=13.7316873,100.6410794" target="_blank">ดูบน Google Maps</a>     </div>`)[0];
+                popup_27f4e104f8fd12974955f1ad2641fca6.setContent(html_75d3f5f9897862b67babda49d9d81fd2);
+            
+        
+
+        marker_fc178f50e4058e516c78e1e989b5ae77.bindPopup(popup_27f4e104f8fd12974955f1ad2641fca6)
+        ;
+
+        
+    
+    
+            var marker_7f4a5a9e79f5c1c2e04a0e23a64551f2 = L.marker(
+                [13.6996985, 100.6470813],
+                {
+}
+            ).addTo(map_e4240bd6d3d85925082804bf55bdafa1);
+        
+    
+            var icon_7fe050358b93057f88192a6051fbe725 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "orange",
+  "iconColor": "white",
+  "icon": "bolt",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_7f4a5a9e79f5c1c2e04a0e23a64551f2.setIcon(icon_7fe050358b93057f88192a6051fbe725);
+        
+    
+        var popup_f08ecffc1dbdb201804d116aef78dc3c = L.popup({
+  "maxWidth": 250,
+});
+
+        
+            
+                var html_67b259ed5f564afec4b9b045008211df = $(`<div id="html_67b259ed5f564afec4b9b045008211df" style="width: 100.0%; height: 100.0%;">     <b>ไม่ระบุชื่อ</b><br>     📍 ไม่ระบุที่อยู่<br>     🌍 <a href="https://www.google.com/maps/search/?api=1&query=13.6996985,100.6470813" target="_blank">ดูบน Google Maps</a>     </div>`)[0];
+                popup_f08ecffc1dbdb201804d116aef78dc3c.setContent(html_67b259ed5f564afec4b9b045008211df);
+            
+        
+
+        marker_7f4a5a9e79f5c1c2e04a0e23a64551f2.bindPopup(popup_f08ecffc1dbdb201804d116aef78dc3c)
+        ;
+
+        
+    
+    
+            var marker_fa5dabce67317f89f8533ee24d8f7119 = L.marker(
+                [13.7779334, 100.6236199],
+                {
+}
+            ).addTo(map_e4240bd6d3d85925082804bf55bdafa1);
+        
+    
+            var icon_2b37d61f64c6b6c9b7c0022b296891eb = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "orange",
+  "iconColor": "white",
+  "icon": "bolt",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_fa5dabce67317f89f8533ee24d8f7119.setIcon(icon_2b37d61f64c6b6c9b7c0022b296891eb);
+        
+    
+        var popup_bcde8db477b3c482573b08d862e01611 = L.popup({
+  "maxWidth": 250,
+});
+
+        
+            
+                var html_32b3c7045d0ade40684278e4ffb8f549 = $(`<div id="html_32b3c7045d0ade40684278e4ffb8f549" style="width: 100.0%; height: 100.0%;">     <b>ไม่ระบุชื่อ</b><br>     📍 ไม่ระบุที่อยู่<br>     🌍 <a href="https://www.google.com/maps/search/?api=1&query=13.7779334,100.6236199" target="_blank">ดูบน Google Maps</a>     </div>`)[0];
+                popup_bcde8db477b3c482573b08d862e01611.setContent(html_32b3c7045d0ade40684278e4ffb8f549);
+            
+        
+
+        marker_fa5dabce67317f89f8533ee24d8f7119.bindPopup(popup_bcde8db477b3c482573b08d862e01611)
+        ;
+
+        
+    
+    
+            var marker_2025aa4009b3b59a3ec34f89cf77df67 = L.marker(
+                [13.7217357, 100.7273023],
+                {
+}
+            ).addTo(map_e4240bd6d3d85925082804bf55bdafa1);
+        
+    
+            var icon_7ebc8d18bf9415de078c1e76ed1b649e = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "orange",
+  "iconColor": "white",
+  "icon": "bolt",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_2025aa4009b3b59a3ec34f89cf77df67.setIcon(icon_7ebc8d18bf9415de078c1e76ed1b649e);
+        
+    
+        var popup_255341e583b1dfa9718365b31fa05c58 = L.popup({
+  "maxWidth": 250,
+});
+
+        
+            
+                var html_b3394ee033123a18dfd8bffe14636728 = $(`<div id="html_b3394ee033123a18dfd8bffe14636728" style="width: 100.0%; height: 100.0%;">     <b>ไม่ระบุชื่อ</b><br>     📍 ไม่ระบุที่อยู่<br>     🌍 <a href="https://www.google.com/maps/search/?api=1&query=13.7217357,100.7273023" target="_blank">ดูบน Google Maps</a>     </div>`)[0];
+                popup_255341e583b1dfa9718365b31fa05c58.setContent(html_b3394ee033123a18dfd8bffe14636728);
+            
+        
+
+        marker_2025aa4009b3b59a3ec34f89cf77df67.bindPopup(popup_255341e583b1dfa9718365b31fa05c58)
+        ;
+
+        
+    
+    
+            var marker_e1c448892a481093af92ea9af5686ba9 = L.marker(
+                [13.773219, 100.633254],
+                {
+}
+            ).addTo(map_e4240bd6d3d85925082804bf55bdafa1);
+        
+    
+            var icon_95ec8b12a81f6d53626d63e553e315b1 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "orange",
+  "iconColor": "white",
+  "icon": "bolt",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_e1c448892a481093af92ea9af5686ba9.setIcon(icon_95ec8b12a81f6d53626d63e553e315b1);
+        
+    
+        var popup_0baa4b8f523b9077670710963e2b4b14 = L.popup({
+  "maxWidth": 250,
+});
+
+        
+            
+                var html_ab6b4bccb6dd4b269c7d6a030a206f04 = $(`<div id="html_ab6b4bccb6dd4b269c7d6a030a206f04" style="width: 100.0%; height: 100.0%;">     <b>ไม่ระบุชื่อ</b><br>     📍 ไม่ระบุที่อยู่<br>     🌍 <a href="https://www.google.com/maps/search/?api=1&query=13.773219,100.633254" target="_blank">ดูบน Google Maps</a>     </div>`)[0];
+                popup_0baa4b8f523b9077670710963e2b4b14.setContent(html_ab6b4bccb6dd4b269c7d6a030a206f04);
+            
+        
+
+        marker_e1c448892a481093af92ea9af5686ba9.bindPopup(popup_0baa4b8f523b9077670710963e2b4b14)
+        ;
+
+        
+    
+    
+            var marker_b32165e5960c9497e3b26a78c2263cdf = L.marker(
+                [13.7690285, 100.6623887],
+                {
+}
+            ).addTo(map_e4240bd6d3d85925082804bf55bdafa1);
+        
+    
+            var icon_08404aa2bf3eeda85443056a9bfa297c = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "orange",
+  "iconColor": "white",
+  "icon": "bolt",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_b32165e5960c9497e3b26a78c2263cdf.setIcon(icon_08404aa2bf3eeda85443056a9bfa297c);
+        
+    
+        var popup_6c02f3615c034f19e09546ef53ae93e6 = L.popup({
+  "maxWidth": 250,
+});
+
+        
+            
+                var html_4e388d0e8b83a241be1c8cde3d51c987 = $(`<div id="html_4e388d0e8b83a241be1c8cde3d51c987" style="width: 100.0%; height: 100.0%;">     <b>ไม่ระบุชื่อ</b><br>     📍 ไม่ระบุที่อยู่<br>     🌍 <a href="https://www.google.com/maps/search/?api=1&query=13.7690285,100.6623887" target="_blank">ดูบน Google Maps</a>     </div>`)[0];
+                popup_6c02f3615c034f19e09546ef53ae93e6.setContent(html_4e388d0e8b83a241be1c8cde3d51c987);
+            
+        
+
+        marker_b32165e5960c9497e3b26a78c2263cdf.bindPopup(popup_6c02f3615c034f19e09546ef53ae93e6)
+        ;
+
+        
+    
+    
+            var marker_136325016e0f6ee42abc8525c9563bb1 = L.marker(
+                [13.7766757, 100.6604845],
+                {
+}
+            ).addTo(map_e4240bd6d3d85925082804bf55bdafa1);
+        
+    
+            var icon_c5e2f2c91aeb454ca8fd4463908b6b4c = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "orange",
+  "iconColor": "white",
+  "icon": "bolt",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_136325016e0f6ee42abc8525c9563bb1.setIcon(icon_c5e2f2c91aeb454ca8fd4463908b6b4c);
+        
+    
+        var popup_502501b84a4b3006b05aa04e5ed63be4 = L.popup({
+  "maxWidth": 250,
+});
+
+        
+            
+                var html_d9bc452caf63ad8e4601b1bc7ee9389c = $(`<div id="html_d9bc452caf63ad8e4601b1bc7ee9389c" style="width: 100.0%; height: 100.0%;">     <b>ไม่ระบุชื่อ</b><br>     📍 ไม่ระบุที่อยู่<br>     🌍 <a href="https://www.google.com/maps/search/?api=1&query=13.7766757,100.6604845" target="_blank">ดูบน Google Maps</a>     </div>`)[0];
+                popup_502501b84a4b3006b05aa04e5ed63be4.setContent(html_d9bc452caf63ad8e4601b1bc7ee9389c);
+            
+        
+
+        marker_136325016e0f6ee42abc8525c9563bb1.bindPopup(popup_502501b84a4b3006b05aa04e5ed63be4)
+        ;
+
+        
+    
+    
+            var marker_3455d3f113e63649059cb1190382c164 = L.marker(
+                [13.7745262, 100.6667582],
+                {
+}
+            ).addTo(map_e4240bd6d3d85925082804bf55bdafa1);
+        
+    
+            var icon_6117b364862fd623a0ba512cd9c5798e = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "orange",
+  "iconColor": "white",
+  "icon": "bolt",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_3455d3f113e63649059cb1190382c164.setIcon(icon_6117b364862fd623a0ba512cd9c5798e);
+        
+    
+        var popup_e9aee42a9229fe6a9f40681e9836531a = L.popup({
+  "maxWidth": 250,
+});
+
+        
+            
+                var html_1cf93a4a94f12c52e73ffbbda398ac7f = $(`<div id="html_1cf93a4a94f12c52e73ffbbda398ac7f" style="width: 100.0%; height: 100.0%;">     <b>ไม่ระบุชื่อ</b><br>     📍 ไม่ระบุที่อยู่<br>     🌍 <a href="https://www.google.com/maps/search/?api=1&query=13.7745262,100.6667582" target="_blank">ดูบน Google Maps</a>     </div>`)[0];
+                popup_e9aee42a9229fe6a9f40681e9836531a.setContent(html_1cf93a4a94f12c52e73ffbbda398ac7f);
+            
+        
+
+        marker_3455d3f113e63649059cb1190382c164.bindPopup(popup_e9aee42a9229fe6a9f40681e9836531a)
+        ;
+
+        
+    
+    
+            var marker_da2a0c2f07859e84209453de5d0dda0e = L.marker(
+                [13.7692308, 100.6317053],
+                {
+}
+            ).addTo(map_e4240bd6d3d85925082804bf55bdafa1);
+        
+    
+            var icon_9287d3aa21fd827f7b7ddd6f14d975f1 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "orange",
+  "iconColor": "white",
+  "icon": "bolt",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_da2a0c2f07859e84209453de5d0dda0e.setIcon(icon_9287d3aa21fd827f7b7ddd6f14d975f1);
+        
+    
+        var popup_4f2948d8810d8e3aa1c59cb19b28480a = L.popup({
+  "maxWidth": 250,
+});
+
+        
+            
+                var html_47f70610c621f3004e9b6180b14cc164 = $(`<div id="html_47f70610c621f3004e9b6180b14cc164" style="width: 100.0%; height: 100.0%;">     <b>ไม่ระบุชื่อ</b><br>     📍 ไม่ระบุที่อยู่<br>     🌍 <a href="https://www.google.com/maps/search/?api=1&query=13.7692308,100.6317053" target="_blank">ดูบน Google Maps</a>     </div>`)[0];
+                popup_4f2948d8810d8e3aa1c59cb19b28480a.setContent(html_47f70610c621f3004e9b6180b14cc164);
+            
+        
+
+        marker_da2a0c2f07859e84209453de5d0dda0e.bindPopup(popup_4f2948d8810d8e3aa1c59cb19b28480a)
+        ;
+
+        
+    
+    
+            var marker_79f7453253fabab6bb1c505844f9b8b8 = L.marker(
+                [13.6945749, 100.6723897],
+                {
+}
+            ).addTo(map_e4240bd6d3d85925082804bf55bdafa1);
+        
+    
+            var icon_429fbd2e2a7abf2a6018dbb2041cd650 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "orange",
+  "iconColor": "white",
+  "icon": "bolt",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_79f7453253fabab6bb1c505844f9b8b8.setIcon(icon_429fbd2e2a7abf2a6018dbb2041cd650);
+        
+    
+        var popup_fc6dec43d0123537230de4f42c3b5ebe = L.popup({
+  "maxWidth": 250,
+});
+
+        
+            
+                var html_2d8e3c2adc783b1e96a14571d97bafe8 = $(`<div id="html_2d8e3c2adc783b1e96a14571d97bafe8" style="width: 100.0%; height: 100.0%;">     <b>ไม่ระบุชื่อ</b><br>     📍 ไม่ระบุที่อยู่<br>     🌍 <a href="https://www.google.com/maps/search/?api=1&query=13.6945749,100.6723897" target="_blank">ดูบน Google Maps</a>     </div>`)[0];
+                popup_fc6dec43d0123537230de4f42c3b5ebe.setContent(html_2d8e3c2adc783b1e96a14571d97bafe8);
+            
+        
+
+        marker_79f7453253fabab6bb1c505844f9b8b8.bindPopup(popup_fc6dec43d0123537230de4f42c3b5ebe)
+        ;
+
+        
+    
+    
+            var marker_e6110ef21889fa1681c0abb7608e0934 = L.marker(
+                [13.7222795, 100.7358647],
+                {
+}
+            ).addTo(map_e4240bd6d3d85925082804bf55bdafa1);
+        
+    
+            var icon_aef11c4c14cfe279873f744ab6a37086 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "orange",
+  "iconColor": "white",
+  "icon": "bolt",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_e6110ef21889fa1681c0abb7608e0934.setIcon(icon_aef11c4c14cfe279873f744ab6a37086);
+        
+    
+        var popup_cd5eb22f4fabef8ec0794d08be13e928 = L.popup({
+  "maxWidth": 250,
+});
+
+        
+            
+                var html_c9fba70fe11a7f41db6c10db3b6697f6 = $(`<div id="html_c9fba70fe11a7f41db6c10db3b6697f6" style="width: 100.0%; height: 100.0%;">     <b>ไม่ระบุชื่อ</b><br>     📍 ไม่ระบุที่อยู่<br>     🌍 <a href="https://www.google.com/maps/search/?api=1&query=13.7222795,100.7358647" target="_blank">ดูบน Google Maps</a>     </div>`)[0];
+                popup_cd5eb22f4fabef8ec0794d08be13e928.setContent(html_c9fba70fe11a7f41db6c10db3b6697f6);
+            
+        
+
+        marker_e6110ef21889fa1681c0abb7608e0934.bindPopup(popup_cd5eb22f4fabef8ec0794d08be13e928)
+        ;
+
+        
+    
+    
+            var marker_a333d5c719ce7c9f797118400e673650 = L.marker(
+                [13.7371278, 100.6177095],
+                {
+}
+            ).addTo(map_e4240bd6d3d85925082804bf55bdafa1);
+        
+    
+            var icon_1bc823ac8be2e4cd958bc72f1bb31191 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "orange",
+  "iconColor": "white",
+  "icon": "bolt",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_a333d5c719ce7c9f797118400e673650.setIcon(icon_1bc823ac8be2e4cd958bc72f1bb31191);
+        
+    
+        var popup_aec72dc1d880f15c84b4fea22c1d49a8 = L.popup({
+  "maxWidth": 250,
+});
+
+        
+            
+                var html_73068cf5805e3f0975a907b57423bbe7 = $(`<div id="html_73068cf5805e3f0975a907b57423bbe7" style="width: 100.0%; height: 100.0%;">     <b>ไม่ระบุชื่อ</b><br>     📍 ไม่ระบุที่อยู่<br>     🌍 <a href="https://www.google.com/maps/search/?api=1&query=13.7371278,100.6177095" target="_blank">ดูบน Google Maps</a>     </div>`)[0];
+                popup_aec72dc1d880f15c84b4fea22c1d49a8.setContent(html_73068cf5805e3f0975a907b57423bbe7);
+            
+        
+
+        marker_a333d5c719ce7c9f797118400e673650.bindPopup(popup_aec72dc1d880f15c84b4fea22c1d49a8)
+        ;
+
+        
+    
+    
+            var marker_b59f8e7f530cf2bd947bca8fe5a67690 = L.marker(
+                [13.7180912, 100.6629802],
+                {
+}
+            ).addTo(map_e4240bd6d3d85925082804bf55bdafa1);
+        
+    
+            var icon_5568676c56534c0962534a3daebfcca9 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "orange",
+  "iconColor": "white",
+  "icon": "bolt",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_b59f8e7f530cf2bd947bca8fe5a67690.setIcon(icon_5568676c56534c0962534a3daebfcca9);
+        
+    
+        var popup_7611ce69896b8598587fe4a928a4bbc5 = L.popup({
+  "maxWidth": 250,
+});
+
+        
+            
+                var html_8d541c6924e1c02225b4f2ebf6ac0145 = $(`<div id="html_8d541c6924e1c02225b4f2ebf6ac0145" style="width: 100.0%; height: 100.0%;">     <b>ไม่ระบุชื่อ</b><br>     📍 ไม่ระบุที่อยู่<br>     🌍 <a href="https://www.google.com/maps/search/?api=1&query=13.7180912,100.6629802" target="_blank">ดูบน Google Maps</a>     </div>`)[0];
+                popup_7611ce69896b8598587fe4a928a4bbc5.setContent(html_8d541c6924e1c02225b4f2ebf6ac0145);
+            
+        
+
+        marker_b59f8e7f530cf2bd947bca8fe5a67690.bindPopup(popup_7611ce69896b8598587fe4a928a4bbc5)
+        ;
+
+        
+    
+    
+            var marker_87ddd0e152a46dfb00e78d8d2fcb60fd = L.marker(
+                [13.6206366, 100.5417958],
+                {
+}
+            ).addTo(map_e4240bd6d3d85925082804bf55bdafa1);
+        
+    
+            var icon_b8067c204e0dcb5f5e802316cd7e11fd = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "orange",
+  "iconColor": "white",
+  "icon": "bolt",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_87ddd0e152a46dfb00e78d8d2fcb60fd.setIcon(icon_b8067c204e0dcb5f5e802316cd7e11fd);
+        
+    
+        var popup_c0a4d879e411a8b7f444c28e6a8c9a14 = L.popup({
+  "maxWidth": 250,
+});
+
+        
+            
+                var html_e7282791e1469bb56223b1157669bba8 = $(`<div id="html_e7282791e1469bb56223b1157669bba8" style="width: 100.0%; height: 100.0%;">     <b>ไม่ระบุชื่อ</b><br>     📍 ไม่ระบุที่อยู่<br>     🌍 <a href="https://www.google.com/maps/search/?api=1&query=13.6206366,100.5417958" target="_blank">ดูบน Google Maps</a>     </div>`)[0];
+                popup_c0a4d879e411a8b7f444c28e6a8c9a14.setContent(html_e7282791e1469bb56223b1157669bba8);
+            
+        
+
+        marker_87ddd0e152a46dfb00e78d8d2fcb60fd.bindPopup(popup_c0a4d879e411a8b7f444c28e6a8c9a14)
+        ;
+
+        
+    
+    
+            var marker_7a25e9d6006782f4f78d861c2368ef6e = L.marker(
+                [13.6804965, 100.4694577],
+                {
+}
+            ).addTo(map_e4240bd6d3d85925082804bf55bdafa1);
+        
+    
+            var icon_eed5a756c50c2b85effde766de221bdc = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "orange",
+  "iconColor": "white",
+  "icon": "bolt",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_7a25e9d6006782f4f78d861c2368ef6e.setIcon(icon_eed5a756c50c2b85effde766de221bdc);
+        
+    
+        var popup_a983a1d44aff979839f78f9e7bcfd7e0 = L.popup({
+  "maxWidth": 250,
+});
+
+        
+            
+                var html_577b0bdeca04c45a9d2667a98af4a568 = $(`<div id="html_577b0bdeca04c45a9d2667a98af4a568" style="width: 100.0%; height: 100.0%;">     <b>ไม่ระบุชื่อ</b><br>     📍 ไม่ระบุที่อยู่<br>     🌍 <a href="https://www.google.com/maps/search/?api=1&query=13.6804965,100.4694577" target="_blank">ดูบน Google Maps</a>     </div>`)[0];
+                popup_a983a1d44aff979839f78f9e7bcfd7e0.setContent(html_577b0bdeca04c45a9d2667a98af4a568);
+            
+        
+
+        marker_7a25e9d6006782f4f78d861c2368ef6e.bindPopup(popup_a983a1d44aff979839f78f9e7bcfd7e0)
+        ;
+
+        
+    
+    
+            var marker_259625564f01fb0dbef6d8095c8eab0c = L.marker(
+                [13.6843103, 100.5223493],
+                {
+}
+            ).addTo(map_e4240bd6d3d85925082804bf55bdafa1);
+        
+    
+            var icon_c2d5110f49cd678f622052eb1a5fa941 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "orange",
+  "iconColor": "white",
+  "icon": "bolt",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_259625564f01fb0dbef6d8095c8eab0c.setIcon(icon_c2d5110f49cd678f622052eb1a5fa941);
+        
+    
+        var popup_b5978309d41aacb1a34c326a10a8d6db = L.popup({
+  "maxWidth": 250,
+});
+
+        
+            
+                var html_2aeb2c3b9097c598717e79b97ec35f54 = $(`<div id="html_2aeb2c3b9097c598717e79b97ec35f54" style="width: 100.0%; height: 100.0%;">     <b>ไม่ระบุชื่อ</b><br>     📍 ไม่ระบุที่อยู่<br>     🌍 <a href="https://www.google.com/maps/search/?api=1&query=13.6843103,100.5223493" target="_blank">ดูบน Google Maps</a>     </div>`)[0];
+                popup_b5978309d41aacb1a34c326a10a8d6db.setContent(html_2aeb2c3b9097c598717e79b97ec35f54);
+            
+        
+
+        marker_259625564f01fb0dbef6d8095c8eab0c.bindPopup(popup_b5978309d41aacb1a34c326a10a8d6db)
+        ;
+
+        
+    
+    
+            var marker_72f0f207bf13543e32c38e6c5d473be1 = L.marker(
+                [13.6427678, 100.4793617],
+                {
+}
+            ).addTo(map_e4240bd6d3d85925082804bf55bdafa1);
+        
+    
+            var icon_24bd0fc1d5faac17e2570a7b1b4093f2 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "orange",
+  "iconColor": "white",
+  "icon": "bolt",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_72f0f207bf13543e32c38e6c5d473be1.setIcon(icon_24bd0fc1d5faac17e2570a7b1b4093f2);
+        
+    
+        var popup_1f8de9f69b803261c6441ffa3ee5e421 = L.popup({
+  "maxWidth": 250,
+});
+
+        
+            
+                var html_8d72547405b9c874c376d041cc4997c7 = $(`<div id="html_8d72547405b9c874c376d041cc4997c7" style="width: 100.0%; height: 100.0%;">     <b>ไม่ระบุชื่อ</b><br>     📍 ไม่ระบุที่อยู่<br>     🌍 <a href="https://www.google.com/maps/search/?api=1&query=13.6427678,100.4793617" target="_blank">ดูบน Google Maps</a>     </div>`)[0];
+                popup_1f8de9f69b803261c6441ffa3ee5e421.setContent(html_8d72547405b9c874c376d041cc4997c7);
+            
+        
+
+        marker_72f0f207bf13543e32c38e6c5d473be1.bindPopup(popup_1f8de9f69b803261c6441ffa3ee5e421)
+        ;
+
+        
+    
+    
+            var marker_cfbe6fac48cc05607cbcf4d713516622 = L.marker(
+                [13.7105738, 100.5028298],
+                {
+}
+            ).addTo(map_e4240bd6d3d85925082804bf55bdafa1);
+        
+    
+            var icon_51d70da83f4b65effb3f9ef7f242909c = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "orange",
+  "iconColor": "white",
+  "icon": "bolt",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_cfbe6fac48cc05607cbcf4d713516622.setIcon(icon_51d70da83f4b65effb3f9ef7f242909c);
+        
+    
+        var popup_d002804c5a6704748e9dc248a5b2f2db = L.popup({
+  "maxWidth": 250,
+});
+
+        
+            
+                var html_a40577cf61f5a51c43336812c0195f8b = $(`<div id="html_a40577cf61f5a51c43336812c0195f8b" style="width: 100.0%; height: 100.0%;">     <b>ไม่ระบุชื่อ</b><br>     📍 ไม่ระบุที่อยู่<br>     🌍 <a href="https://www.google.com/maps/search/?api=1&query=13.7105738,100.5028298" target="_blank">ดูบน Google Maps</a>     </div>`)[0];
+                popup_d002804c5a6704748e9dc248a5b2f2db.setContent(html_a40577cf61f5a51c43336812c0195f8b);
+            
+        
+
+        marker_cfbe6fac48cc05607cbcf4d713516622.bindPopup(popup_d002804c5a6704748e9dc248a5b2f2db)
+        ;
+
+        
+    
+    
+            var marker_cfc109e24dc3ce2d8519964541e568ac = L.marker(
+                [13.6484515, 100.4879566],
+                {
+}
+            ).addTo(map_e4240bd6d3d85925082804bf55bdafa1);
+        
+    
+            var icon_7f3e06ca289b991867391dc9d06b2519 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "orange",
+  "iconColor": "white",
+  "icon": "bolt",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_cfc109e24dc3ce2d8519964541e568ac.setIcon(icon_7f3e06ca289b991867391dc9d06b2519);
+        
+    
+        var popup_5a9779b0e50001b1e41d31d1ebe98635 = L.popup({
+  "maxWidth": 250,
+});
+
+        
+            
+                var html_de0c1eb1cb7aeeaa363b8942ae8fd140 = $(`<div id="html_de0c1eb1cb7aeeaa363b8942ae8fd140" style="width: 100.0%; height: 100.0%;">     <b>ไม่ระบุชื่อ</b><br>     📍 ไม่ระบุที่อยู่<br>     🌍 <a href="https://www.google.com/maps/search/?api=1&query=13.6484515,100.4879566" target="_blank">ดูบน Google Maps</a>     </div>`)[0];
+                popup_5a9779b0e50001b1e41d31d1ebe98635.setContent(html_de0c1eb1cb7aeeaa363b8942ae8fd140);
+            
+        
+
+        marker_cfc109e24dc3ce2d8519964541e568ac.bindPopup(popup_5a9779b0e50001b1e41d31d1ebe98635)
+        ;
+
+        
+    
+    
+            var marker_b370d1b2641e18539d4a9ba97d07d6bc = L.marker(
+                [13.7059675, 100.4829359],
+                {
+}
+            ).addTo(map_e4240bd6d3d85925082804bf55bdafa1);
+        
+    
+            var icon_a9db276ddd4017e62f49667b51e8c8b4 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "orange",
+  "iconColor": "white",
+  "icon": "bolt",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_b370d1b2641e18539d4a9ba97d07d6bc.setIcon(icon_a9db276ddd4017e62f49667b51e8c8b4);
+        
+    
+        var popup_cfa9affd918789d74d6a5800983bf12d = L.popup({
+  "maxWidth": 250,
+});
+
+        
+            
+                var html_a8ba435f0074bb9b6f867350f032dac3 = $(`<div id="html_a8ba435f0074bb9b6f867350f032dac3" style="width: 100.0%; height: 100.0%;">     <b>ไม่ระบุชื่อ</b><br>     📍 ไม่ระบุที่อยู่<br>     🌍 <a href="https://www.google.com/maps/search/?api=1&query=13.7059675,100.4829359" target="_blank">ดูบน Google Maps</a>     </div>`)[0];
+                popup_cfa9affd918789d74d6a5800983bf12d.setContent(html_a8ba435f0074bb9b6f867350f032dac3);
+            
+        
+
+        marker_b370d1b2641e18539d4a9ba97d07d6bc.bindPopup(popup_cfa9affd918789d74d6a5800983bf12d)
+        ;
+
+        
+    
+    
+            var marker_a66d23ec741200b37a3bba87507d6efc = L.marker(
+                [13.7115976, 100.5005766],
+                {
+}
+            ).addTo(map_e4240bd6d3d85925082804bf55bdafa1);
+        
+    
+            var icon_3f185875eff51fd7072ba8cdb311cbc4 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "orange",
+  "iconColor": "white",
+  "icon": "bolt",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_a66d23ec741200b37a3bba87507d6efc.setIcon(icon_3f185875eff51fd7072ba8cdb311cbc4);
+        
+    
+        var popup_de53a4e0aa5b8ccbf452a85d0c714fbd = L.popup({
+  "maxWidth": 250,
+});
+
+        
+            
+                var html_541702f3e9938d895c6b4f0168434d94 = $(`<div id="html_541702f3e9938d895c6b4f0168434d94" style="width: 100.0%; height: 100.0%;">     <b>ไม่ระบุชื่อ</b><br>     📍 ไม่ระบุที่อยู่<br>     🌍 <a href="https://www.google.com/maps/search/?api=1&query=13.7115976,100.5005766" target="_blank">ดูบน Google Maps</a>     </div>`)[0];
+                popup_de53a4e0aa5b8ccbf452a85d0c714fbd.setContent(html_541702f3e9938d895c6b4f0168434d94);
+            
+        
+
+        marker_a66d23ec741200b37a3bba87507d6efc.bindPopup(popup_de53a4e0aa5b8ccbf452a85d0c714fbd)
+        ;
+
+        
+    
+    
+            var marker_7bf177ff0b1203eaeda3b53329b64c83 = L.marker(
+                [13.6979528, 100.537541],
+                {
+}
+            ).addTo(map_e4240bd6d3d85925082804bf55bdafa1);
+        
+    
+            var icon_358bbc3a3e6ae819004e741ce8b8450e = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "orange",
+  "iconColor": "white",
+  "icon": "bolt",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_7bf177ff0b1203eaeda3b53329b64c83.setIcon(icon_358bbc3a3e6ae819004e741ce8b8450e);
+        
+    
+        var popup_81c26032fcb6632786b1bcd1dd620eae = L.popup({
+  "maxWidth": 250,
+});
+
+        
+            
+                var html_ab8cb4bb63b06d846148e4d6fe3cad6b = $(`<div id="html_ab8cb4bb63b06d846148e4d6fe3cad6b" style="width: 100.0%; height: 100.0%;">     <b>ไม่ระบุชื่อ</b><br>     📍 ไม่ระบุที่อยู่<br>     🌍 <a href="https://www.google.com/maps/search/?api=1&query=13.6979528,100.537541" target="_blank">ดูบน Google Maps</a>     </div>`)[0];
+                popup_81c26032fcb6632786b1bcd1dd620eae.setContent(html_ab8cb4bb63b06d846148e4d6fe3cad6b);
+            
+        
+
+        marker_7bf177ff0b1203eaeda3b53329b64c83.bindPopup(popup_81c26032fcb6632786b1bcd1dd620eae)
+        ;
+
+        
+    
+    
+            var marker_351e1c5acd3905dbfded0d914593b427 = L.marker(
+                [13.6596426, 100.4338155],
+                {
+}
+            ).addTo(map_e4240bd6d3d85925082804bf55bdafa1);
+        
+    
+            var icon_0c66febf710513fce845d83add2a486d = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "orange",
+  "iconColor": "white",
+  "icon": "bolt",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_351e1c5acd3905dbfded0d914593b427.setIcon(icon_0c66febf710513fce845d83add2a486d);
+        
+    
+        var popup_4d0d392ead8dccf9a0073b2e110d1a19 = L.popup({
+  "maxWidth": 250,
+});
+
+        
+            
+                var html_d26431eb226ce4e28721d7dde3cae0c0 = $(`<div id="html_d26431eb226ce4e28721d7dde3cae0c0" style="width: 100.0%; height: 100.0%;">     <b>ไม่ระบุชื่อ</b><br>     📍 ไม่ระบุที่อยู่<br>     🌍 <a href="https://www.google.com/maps/search/?api=1&query=13.6596426,100.4338155" target="_blank">ดูบน Google Maps</a>     </div>`)[0];
+                popup_4d0d392ead8dccf9a0073b2e110d1a19.setContent(html_d26431eb226ce4e28721d7dde3cae0c0);
+            
+        
+
+        marker_351e1c5acd3905dbfded0d914593b427.bindPopup(popup_4d0d392ead8dccf9a0073b2e110d1a19)
+        ;
+
+        
+    
+    
+            var marker_0a7ea923928e6a8c27af33900fa9678d = L.marker(
+                [13.6469056, 100.4440876],
+                {
+}
+            ).addTo(map_e4240bd6d3d85925082804bf55bdafa1);
+        
+    
+            var icon_6b1e3466e0fc62a1d78a173fd852f0dd = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "orange",
+  "iconColor": "white",
+  "icon": "bolt",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_0a7ea923928e6a8c27af33900fa9678d.setIcon(icon_6b1e3466e0fc62a1d78a173fd852f0dd);
+        
+    
+        var popup_040e4959f56e4c8eb917ca33448cae91 = L.popup({
+  "maxWidth": 250,
+});
+
+        
+            
+                var html_f12dbe6e2ee60a653d9680057d73e2cf = $(`<div id="html_f12dbe6e2ee60a653d9680057d73e2cf" style="width: 100.0%; height: 100.0%;">     <b>ไม่ระบุชื่อ</b><br>     📍 ไม่ระบุที่อยู่<br>     🌍 <a href="https://www.google.com/maps/search/?api=1&query=13.6469056,100.4440876" target="_blank">ดูบน Google Maps</a>     </div>`)[0];
+                popup_040e4959f56e4c8eb917ca33448cae91.setContent(html_f12dbe6e2ee60a653d9680057d73e2cf);
+            
+        
+
+        marker_0a7ea923928e6a8c27af33900fa9678d.bindPopup(popup_040e4959f56e4c8eb917ca33448cae91)
+        ;
+
+        
+    
+    
+            var marker_e0ef8b8dd87c78b81d1310c36b3151e6 = L.marker(
+                [13.6250941, 100.4377447],
+                {
+}
+            ).addTo(map_e4240bd6d3d85925082804bf55bdafa1);
+        
+    
+            var icon_00887d8090cd9fde93a4a836b1e4c93c = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "orange",
+  "iconColor": "white",
+  "icon": "bolt",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_e0ef8b8dd87c78b81d1310c36b3151e6.setIcon(icon_00887d8090cd9fde93a4a836b1e4c93c);
+        
+    
+        var popup_fd7c64a886cca56d10f1719bc40bb424 = L.popup({
+  "maxWidth": 250,
+});
+
+        
+            
+                var html_81376c9d732081e84adca0df356b902a = $(`<div id="html_81376c9d732081e84adca0df356b902a" style="width: 100.0%; height: 100.0%;">     <b>ไม่ระบุชื่อ</b><br>     📍 ไม่ระบุที่อยู่<br>     🌍 <a href="https://www.google.com/maps/search/?api=1&query=13.6250941,100.4377447" target="_blank">ดูบน Google Maps</a>     </div>`)[0];
+                popup_fd7c64a886cca56d10f1719bc40bb424.setContent(html_81376c9d732081e84adca0df356b902a);
+            
+        
+
+        marker_e0ef8b8dd87c78b81d1310c36b3151e6.bindPopup(popup_fd7c64a886cca56d10f1719bc40bb424)
+        ;
+
+        
+    
+    
+            var marker_f4ed6e0d4e9c2d141ceba255bc571e02 = L.marker(
+                [13.6255155, 100.4380701],
+                {
+}
+            ).addTo(map_e4240bd6d3d85925082804bf55bdafa1);
+        
+    
+            var icon_8f4190f8c694d0540cfc466ad794f4c0 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "orange",
+  "iconColor": "white",
+  "icon": "bolt",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_f4ed6e0d4e9c2d141ceba255bc571e02.setIcon(icon_8f4190f8c694d0540cfc466ad794f4c0);
+        
+    
+        var popup_e6abc80ac5ced1e0245ee9515484c0dc = L.popup({
+  "maxWidth": 250,
+});
+
+        
+            
+                var html_b1d800b3e420b0f96c441038db4806b5 = $(`<div id="html_b1d800b3e420b0f96c441038db4806b5" style="width: 100.0%; height: 100.0%;">     <b>ไม่ระบุชื่อ</b><br>     📍 ไม่ระบุที่อยู่<br>     🌍 <a href="https://www.google.com/maps/search/?api=1&query=13.6255155,100.4380701" target="_blank">ดูบน Google Maps</a>     </div>`)[0];
+                popup_e6abc80ac5ced1e0245ee9515484c0dc.setContent(html_b1d800b3e420b0f96c441038db4806b5);
+            
+        
+
+        marker_f4ed6e0d4e9c2d141ceba255bc571e02.bindPopup(popup_e6abc80ac5ced1e0245ee9515484c0dc)
+        ;
+
+        
+    
+    
+            var marker_439990ee29976847d5b557c71ad7977f = L.marker(
+                [13.6687758, 100.5051612],
+                {
+}
+            ).addTo(map_e4240bd6d3d85925082804bf55bdafa1);
+        
+    
+            var icon_6a05f64487e4c4084711daa776c801cb = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "orange",
+  "iconColor": "white",
+  "icon": "bolt",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_439990ee29976847d5b557c71ad7977f.setIcon(icon_6a05f64487e4c4084711daa776c801cb);
+        
+    
+        var popup_ee20e908bd3f0a44f8d7011b23f55290 = L.popup({
+  "maxWidth": 250,
+});
+
+        
+            
+                var html_b5e9f46b6fa79671f58bf5bed670c2c0 = $(`<div id="html_b5e9f46b6fa79671f58bf5bed670c2c0" style="width: 100.0%; height: 100.0%;">     <b>ไม่ระบุชื่อ</b><br>     📍 ไม่ระบุที่อยู่<br>     🌍 <a href="https://www.google.com/maps/search/?api=1&query=13.6687758,100.5051612" target="_blank">ดูบน Google Maps</a>     </div>`)[0];
+                popup_ee20e908bd3f0a44f8d7011b23f55290.setContent(html_b5e9f46b6fa79671f58bf5bed670c2c0);
+            
+        
+
+        marker_439990ee29976847d5b557c71ad7977f.bindPopup(popup_ee20e908bd3f0a44f8d7011b23f55290)
+        ;
+
+        
+    
+    
+            var marker_5e72baaf79d04031d015201ff4b15726 = L.marker(
+                [13.6851922, 100.4455265],
+                {
+}
+            ).addTo(map_e4240bd6d3d85925082804bf55bdafa1);
+        
+    
+            var icon_3f6e361445981c6b064800458233a5d1 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "orange",
+  "iconColor": "white",
+  "icon": "bolt",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_5e72baaf79d04031d015201ff4b15726.setIcon(icon_3f6e361445981c6b064800458233a5d1);
+        
+    
+        var popup_317529d3dd6b58b1ce1f18a48860396f = L.popup({
+  "maxWidth": 250,
+});
+
+        
+            
+                var html_85a092b873e1fddbf4fdb3d303cd7eca = $(`<div id="html_85a092b873e1fddbf4fdb3d303cd7eca" style="width: 100.0%; height: 100.0%;">     <b>ไม่ระบุชื่อ</b><br>     📍 ไม่ระบุที่อยู่<br>     🌍 <a href="https://www.google.com/maps/search/?api=1&query=13.6851922,100.4455265" target="_blank">ดูบน Google Maps</a>     </div>`)[0];
+                popup_317529d3dd6b58b1ce1f18a48860396f.setContent(html_85a092b873e1fddbf4fdb3d303cd7eca);
+            
+        
+
+        marker_5e72baaf79d04031d015201ff4b15726.bindPopup(popup_317529d3dd6b58b1ce1f18a48860396f)
+        ;
+
+        
+    
+    
+            var marker_62b07c9825f8a599e3962a3dcd59e211 = L.marker(
+                [13.6210385, 100.4886227],
+                {
+}
+            ).addTo(map_e4240bd6d3d85925082804bf55bdafa1);
+        
+    
+            var icon_81de6bb884b7cc43b777589d7ee57367 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "orange",
+  "iconColor": "white",
+  "icon": "bolt",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_62b07c9825f8a599e3962a3dcd59e211.setIcon(icon_81de6bb884b7cc43b777589d7ee57367);
+        
+    
+        var popup_41482c71f97d6acb0b0cc1f8e71ddbe3 = L.popup({
+  "maxWidth": 250,
+});
+
+        
+            
+                var html_bdc99def7bb960c74c095a70708da4bf = $(`<div id="html_bdc99def7bb960c74c095a70708da4bf" style="width: 100.0%; height: 100.0%;">     <b>ไม่ระบุชื่อ</b><br>     📍 ไม่ระบุที่อยู่<br>     🌍 <a href="https://www.google.com/maps/search/?api=1&query=13.6210385,100.4886227" target="_blank">ดูบน Google Maps</a>     </div>`)[0];
+                popup_41482c71f97d6acb0b0cc1f8e71ddbe3.setContent(html_bdc99def7bb960c74c095a70708da4bf);
+            
+        
+
+        marker_62b07c9825f8a599e3962a3dcd59e211.bindPopup(popup_41482c71f97d6acb0b0cc1f8e71ddbe3)
+        ;
+
+        
+    
+    
+            var marker_88501e8068195bb3a8fd86dfb4a0fc74 = L.marker(
+                [13.6704004, 100.5560365],
+                {
+}
+            ).addTo(map_e4240bd6d3d85925082804bf55bdafa1);
+        
+    
+            var icon_64bca3567cd21a11ee53bdf74edd37c7 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "orange",
+  "iconColor": "white",
+  "icon": "bolt",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_88501e8068195bb3a8fd86dfb4a0fc74.setIcon(icon_64bca3567cd21a11ee53bdf74edd37c7);
+        
+    
+        var popup_efd9d5d546348c1cd132d464261adc51 = L.popup({
+  "maxWidth": 250,
+});
+
+        
+            
+                var html_1315166b5d8a0a1da2b0ac46aef806f1 = $(`<div id="html_1315166b5d8a0a1da2b0ac46aef806f1" style="width: 100.0%; height: 100.0%;">     <b>ไม่ระบุชื่อ</b><br>     📍 ไม่ระบุที่อยู่<br>     🌍 <a href="https://www.google.com/maps/search/?api=1&query=13.6704004,100.5560365" target="_blank">ดูบน Google Maps</a>     </div>`)[0];
+                popup_efd9d5d546348c1cd132d464261adc51.setContent(html_1315166b5d8a0a1da2b0ac46aef806f1);
+            
+        
+
+        marker_88501e8068195bb3a8fd86dfb4a0fc74.bindPopup(popup_efd9d5d546348c1cd132d464261adc51)
+        ;
+
+        
+    
+    
+            var marker_e1ce8dddf98722ccd7408d47909412ea = L.marker(
+                [13.691278, 100.5030649],
+                {
+}
+            ).addTo(map_e4240bd6d3d85925082804bf55bdafa1);
+        
+    
+            var icon_e861632cc656332422692c2e2536b4fa = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "orange",
+  "iconColor": "white",
+  "icon": "bolt",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_e1ce8dddf98722ccd7408d47909412ea.setIcon(icon_e861632cc656332422692c2e2536b4fa);
+        
+    
+        var popup_deafcbc42194b9729974c4310260bf7a = L.popup({
+  "maxWidth": 250,
+});
+
+        
+            
+                var html_6d7ea1623801b1b681b39a9a11096222 = $(`<div id="html_6d7ea1623801b1b681b39a9a11096222" style="width: 100.0%; height: 100.0%;">     <b>ไม่ระบุชื่อ</b><br>     📍 ไม่ระบุที่อยู่<br>     🌍 <a href="https://www.google.com/maps/search/?api=1&query=13.691278,100.5030649" target="_blank">ดูบน Google Maps</a>     </div>`)[0];
+                popup_deafcbc42194b9729974c4310260bf7a.setContent(html_6d7ea1623801b1b681b39a9a11096222);
+            
+        
+
+        marker_e1ce8dddf98722ccd7408d47909412ea.bindPopup(popup_deafcbc42194b9729974c4310260bf7a)
+        ;
+
+        
+    
+    
+            var marker_8d8fa70fe2c445951fb3ed612bd9dc60 = L.marker(
+                [13.6600944, 100.434753],
+                {
+}
+            ).addTo(map_e4240bd6d3d85925082804bf55bdafa1);
+        
+    
+            var icon_8415765b3ec74338dd400abed8fe2ccb = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "orange",
+  "iconColor": "white",
+  "icon": "bolt",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_8d8fa70fe2c445951fb3ed612bd9dc60.setIcon(icon_8415765b3ec74338dd400abed8fe2ccb);
+        
+    
+        var popup_bffba43118f0d4b935f994fda46390eb = L.popup({
+  "maxWidth": 250,
+});
+
+        
+            
+                var html_edefe57f37a81d03e530168f7a6ddb40 = $(`<div id="html_edefe57f37a81d03e530168f7a6ddb40" style="width: 100.0%; height: 100.0%;">     <b>ไม่ระบุชื่อ</b><br>     📍 ไม่ระบุที่อยู่<br>     🌍 <a href="https://www.google.com/maps/search/?api=1&query=13.6600944,100.434753" target="_blank">ดูบน Google Maps</a>     </div>`)[0];
+                popup_bffba43118f0d4b935f994fda46390eb.setContent(html_edefe57f37a81d03e530168f7a6ddb40);
+            
+        
+
+        marker_8d8fa70fe2c445951fb3ed612bd9dc60.bindPopup(popup_bffba43118f0d4b935f994fda46390eb)
+        ;
+
+        
+    
+    
+            var marker_790721cf5398d26c14274bb99e497975 = L.marker(
+                [13.6856492, 100.4943476],
+                {
+}
+            ).addTo(map_e4240bd6d3d85925082804bf55bdafa1);
+        
+    
+            var icon_6fb38f9015a173ff84c92cd54f53f4cb = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "orange",
+  "iconColor": "white",
+  "icon": "bolt",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_790721cf5398d26c14274bb99e497975.setIcon(icon_6fb38f9015a173ff84c92cd54f53f4cb);
+        
+    
+        var popup_1d5b408b4d77f070a7e0fd07482318bb = L.popup({
+  "maxWidth": 250,
+});
+
+        
+            
+                var html_30ae8eb77afaaa8b73f46f56227288b8 = $(`<div id="html_30ae8eb77afaaa8b73f46f56227288b8" style="width: 100.0%; height: 100.0%;">     <b>ไม่ระบุชื่อ</b><br>     📍 ไม่ระบุที่อยู่<br>     🌍 <a href="https://www.google.com/maps/search/?api=1&query=13.6856492,100.4943476" target="_blank">ดูบน Google Maps</a>     </div>`)[0];
+                popup_1d5b408b4d77f070a7e0fd07482318bb.setContent(html_30ae8eb77afaaa8b73f46f56227288b8);
+            
+        
+
+        marker_790721cf5398d26c14274bb99e497975.bindPopup(popup_1d5b408b4d77f070a7e0fd07482318bb)
+        ;
+
+        
+    
+    
+            var marker_c498e82a5882a92e3ed83a544fc1c547 = L.marker(
+                [13.7685979, 100.4445747],
+                {
+}
+            ).addTo(map_e4240bd6d3d85925082804bf55bdafa1);
+        
+    
+            var icon_8c6c53113113f4f5933e91f97c9725cf = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "orange",
+  "iconColor": "white",
+  "icon": "bolt",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_c498e82a5882a92e3ed83a544fc1c547.setIcon(icon_8c6c53113113f4f5933e91f97c9725cf);
+        
+    
+        var popup_43e5fa6f18f43df668c637983fd097f0 = L.popup({
+  "maxWidth": 250,
+});
+
+        
+            
+                var html_38d623e5bb6e91539679785649499fb3 = $(`<div id="html_38d623e5bb6e91539679785649499fb3" style="width: 100.0%; height: 100.0%;">     <b>ไม่ระบุชื่อ</b><br>     📍 ไม่ระบุที่อยู่<br>     🌍 <a href="https://www.google.com/maps/search/?api=1&query=13.7685979,100.4445747" target="_blank">ดูบน Google Maps</a>     </div>`)[0];
+                popup_43e5fa6f18f43df668c637983fd097f0.setContent(html_38d623e5bb6e91539679785649499fb3);
+            
+        
+
+        marker_c498e82a5882a92e3ed83a544fc1c547.bindPopup(popup_43e5fa6f18f43df668c637983fd097f0)
+        ;
+
+        
+    
+    
+            var marker_ec89467c5d57cccd6d97a7ac026ff720 = L.marker(
+                [13.761351, 100.4441585],
+                {
+}
+            ).addTo(map_e4240bd6d3d85925082804bf55bdafa1);
+        
+    
+            var icon_82c827abed1041e7d3b4331d8c9855fc = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "orange",
+  "iconColor": "white",
+  "icon": "bolt",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_ec89467c5d57cccd6d97a7ac026ff720.setIcon(icon_82c827abed1041e7d3b4331d8c9855fc);
+        
+    
+        var popup_637528c014c03131cdf8f4d7629df127 = L.popup({
+  "maxWidth": 250,
+});
+
+        
+            
+                var html_deff2c6c8f903218fe90588d2dfd25e6 = $(`<div id="html_deff2c6c8f903218fe90588d2dfd25e6" style="width: 100.0%; height: 100.0%;">     <b>ไม่ระบุชื่อ</b><br>     📍 ไม่ระบุที่อยู่<br>     🌍 <a href="https://www.google.com/maps/search/?api=1&query=13.761351,100.4441585" target="_blank">ดูบน Google Maps</a>     </div>`)[0];
+                popup_637528c014c03131cdf8f4d7629df127.setContent(html_deff2c6c8f903218fe90588d2dfd25e6);
+            
+        
+
+        marker_ec89467c5d57cccd6d97a7ac026ff720.bindPopup(popup_637528c014c03131cdf8f4d7629df127)
+        ;
+
+        
+    
+    
+            var marker_8f4a32bd1611c5376521a49cf7360b1d = L.marker(
+                [13.7433638, 100.4471248],
+                {
+}
+            ).addTo(map_e4240bd6d3d85925082804bf55bdafa1);
+        
+    
+            var icon_8096078d86e60a9492d4a631732c0486 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "orange",
+  "iconColor": "white",
+  "icon": "bolt",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_8f4a32bd1611c5376521a49cf7360b1d.setIcon(icon_8096078d86e60a9492d4a631732c0486);
+        
+    
+        var popup_bbdc3b47ae90b0e9616f2cde9dc69835 = L.popup({
+  "maxWidth": 250,
+});
+
+        
+            
+                var html_b8e93d85cf1691d7e7df8b434216990c = $(`<div id="html_b8e93d85cf1691d7e7df8b434216990c" style="width: 100.0%; height: 100.0%;">     <b>ไม่ระบุชื่อ</b><br>     📍 ไม่ระบุที่อยู่<br>     🌍 <a href="https://www.google.com/maps/search/?api=1&query=13.7433638,100.4471248" target="_blank">ดูบน Google Maps</a>     </div>`)[0];
+                popup_bbdc3b47ae90b0e9616f2cde9dc69835.setContent(html_b8e93d85cf1691d7e7df8b434216990c);
+            
+        
+
+        marker_8f4a32bd1611c5376521a49cf7360b1d.bindPopup(popup_bbdc3b47ae90b0e9616f2cde9dc69835)
+        ;
+
+        
+    
+    
+            var marker_a1a5fb95fb44a068ca6dd3b3bd745900 = L.marker(
+                [13.7906966, 100.4900158],
+                {
+}
+            ).addTo(map_e4240bd6d3d85925082804bf55bdafa1);
+        
+    
+            var icon_637f66c9c52f23e033df8e4b0faf27a2 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "orange",
+  "iconColor": "white",
+  "icon": "bolt",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_a1a5fb95fb44a068ca6dd3b3bd745900.setIcon(icon_637f66c9c52f23e033df8e4b0faf27a2);
+        
+    
+        var popup_a61c02ee899445206860370e25ed5a60 = L.popup({
+  "maxWidth": 250,
+});
+
+        
+            
+                var html_0a6643f4ad8b3d638e46712bc68e1a3e = $(`<div id="html_0a6643f4ad8b3d638e46712bc68e1a3e" style="width: 100.0%; height: 100.0%;">     <b>ไม่ระบุชื่อ</b><br>     📍 ไม่ระบุที่อยู่<br>     🌍 <a href="https://www.google.com/maps/search/?api=1&query=13.7906966,100.4900158" target="_blank">ดูบน Google Maps</a>     </div>`)[0];
+                popup_a61c02ee899445206860370e25ed5a60.setContent(html_0a6643f4ad8b3d638e46712bc68e1a3e);
+            
+        
+
+        marker_a1a5fb95fb44a068ca6dd3b3bd745900.bindPopup(popup_a61c02ee899445206860370e25ed5a60)
+        ;
+
+        
+    
+    
+            var marker_755aff58e4fffca1b7c1d2132f19fc4e = L.marker(
+                [13.7582, 100.4382277],
+                {
+}
+            ).addTo(map_e4240bd6d3d85925082804bf55bdafa1);
+        
+    
+            var icon_56f7857439d94e1f45ddf407af182ec4 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "orange",
+  "iconColor": "white",
+  "icon": "bolt",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_755aff58e4fffca1b7c1d2132f19fc4e.setIcon(icon_56f7857439d94e1f45ddf407af182ec4);
+        
+    
+        var popup_d1feac6514220d8729bb43143f5999ff = L.popup({
+  "maxWidth": 250,
+});
+
+        
+            
+                var html_0f1f9b3053c0c481186fd66d60bc29d3 = $(`<div id="html_0f1f9b3053c0c481186fd66d60bc29d3" style="width: 100.0%; height: 100.0%;">     <b>ไม่ระบุชื่อ</b><br>     📍 ไม่ระบุที่อยู่<br>     🌍 <a href="https://www.google.com/maps/search/?api=1&query=13.7582,100.4382277" target="_blank">ดูบน Google Maps</a>     </div>`)[0];
+                popup_d1feac6514220d8729bb43143f5999ff.setContent(html_0f1f9b3053c0c481186fd66d60bc29d3);
+            
+        
+
+        marker_755aff58e4fffca1b7c1d2132f19fc4e.bindPopup(popup_d1feac6514220d8729bb43143f5999ff)
+        ;
+
+        
+    
+    
+            var marker_59fda0d85ac18d6c4df90ef57cf09368 = L.marker(
+                [13.7823835, 100.4519637],
+                {
+}
+            ).addTo(map_e4240bd6d3d85925082804bf55bdafa1);
+        
+    
+            var icon_77a96363e913b9ce468bcad4954fd772 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "orange",
+  "iconColor": "white",
+  "icon": "bolt",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_59fda0d85ac18d6c4df90ef57cf09368.setIcon(icon_77a96363e913b9ce468bcad4954fd772);
+        
+    
+        var popup_03a19f81cc42da00cd6c1d99256e0bd8 = L.popup({
+  "maxWidth": 250,
+});
+
+        
+            
+                var html_46d92537d47dd5c6731747ea470f08b8 = $(`<div id="html_46d92537d47dd5c6731747ea470f08b8" style="width: 100.0%; height: 100.0%;">     <b>ไม่ระบุชื่อ</b><br>     📍 ไม่ระบุที่อยู่<br>     🌍 <a href="https://www.google.com/maps/search/?api=1&query=13.7823835,100.4519637" target="_blank">ดูบน Google Maps</a>     </div>`)[0];
+                popup_03a19f81cc42da00cd6c1d99256e0bd8.setContent(html_46d92537d47dd5c6731747ea470f08b8);
+            
+        
+
+        marker_59fda0d85ac18d6c4df90ef57cf09368.bindPopup(popup_03a19f81cc42da00cd6c1d99256e0bd8)
+        ;
+
+        
+    
+    
+            var marker_3fcb40f8af5b1012f01d19874398f90f = L.marker(
+                [13.7547206, 100.4234673],
+                {
+}
+            ).addTo(map_e4240bd6d3d85925082804bf55bdafa1);
+        
+    
+            var icon_c605b4829ef56e52da9b72ff273be61b = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "orange",
+  "iconColor": "white",
+  "icon": "bolt",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_3fcb40f8af5b1012f01d19874398f90f.setIcon(icon_c605b4829ef56e52da9b72ff273be61b);
+        
+    
+        var popup_a9665c8440ede19c28cf52f6add4afad = L.popup({
+  "maxWidth": 250,
+});
+
+        
+            
+                var html_d516bcb4a857f56a7e97ad391f11cf45 = $(`<div id="html_d516bcb4a857f56a7e97ad391f11cf45" style="width: 100.0%; height: 100.0%;">     <b>ไม่ระบุชื่อ</b><br>     📍 ไม่ระบุที่อยู่<br>     🌍 <a href="https://www.google.com/maps/search/?api=1&query=13.7547206,100.4234673" target="_blank">ดูบน Google Maps</a>     </div>`)[0];
+                popup_a9665c8440ede19c28cf52f6add4afad.setContent(html_d516bcb4a857f56a7e97ad391f11cf45);
+            
+        
+
+        marker_3fcb40f8af5b1012f01d19874398f90f.bindPopup(popup_a9665c8440ede19c28cf52f6add4afad)
+        ;
+
+        
+    
+    
+            var marker_2aa141a19564b8a1f9659e1a071a9189 = L.marker(
+                [13.7590027, 100.4199493],
+                {
+}
+            ).addTo(map_e4240bd6d3d85925082804bf55bdafa1);
+        
+    
+            var icon_f59d7f80669112055941d344ee0710eb = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "orange",
+  "iconColor": "white",
+  "icon": "bolt",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_2aa141a19564b8a1f9659e1a071a9189.setIcon(icon_f59d7f80669112055941d344ee0710eb);
+        
+    
+        var popup_5931f6cfefd4ba5e56d6f22fcd4b2d9b = L.popup({
+  "maxWidth": 250,
+});
+
+        
+            
+                var html_02d103937b67142a92ffece994bc4f71 = $(`<div id="html_02d103937b67142a92ffece994bc4f71" style="width: 100.0%; height: 100.0%;">     <b>ไม่ระบุชื่อ</b><br>     📍 ไม่ระบุที่อยู่<br>     🌍 <a href="https://www.google.com/maps/search/?api=1&query=13.7590027,100.4199493" target="_blank">ดูบน Google Maps</a>     </div>`)[0];
+                popup_5931f6cfefd4ba5e56d6f22fcd4b2d9b.setContent(html_02d103937b67142a92ffece994bc4f71);
+            
+        
+
+        marker_2aa141a19564b8a1f9659e1a071a9189.bindPopup(popup_5931f6cfefd4ba5e56d6f22fcd4b2d9b)
+        ;
+
+        
+    
+    
+            var marker_1293d2d4eae715272c060fc9e7b571d6 = L.marker(
+                [13.7674239, 100.405608],
+                {
+}
+            ).addTo(map_e4240bd6d3d85925082804bf55bdafa1);
+        
+    
+            var icon_65c1c14f456b5870254cd3eb60bf2677 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "orange",
+  "iconColor": "white",
+  "icon": "bolt",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_1293d2d4eae715272c060fc9e7b571d6.setIcon(icon_65c1c14f456b5870254cd3eb60bf2677);
+        
+    
+        var popup_a736eb296fbc2f7fb474bc40f01d04a3 = L.popup({
+  "maxWidth": 250,
+});
+
+        
+            
+                var html_b1daa1cbde56741dfe8925f8d4d06304 = $(`<div id="html_b1daa1cbde56741dfe8925f8d4d06304" style="width: 100.0%; height: 100.0%;">     <b>ไม่ระบุชื่อ</b><br>     📍 ไม่ระบุที่อยู่<br>     🌍 <a href="https://www.google.com/maps/search/?api=1&query=13.7674239,100.405608" target="_blank">ดูบน Google Maps</a>     </div>`)[0];
+                popup_a736eb296fbc2f7fb474bc40f01d04a3.setContent(html_b1daa1cbde56741dfe8925f8d4d06304);
+            
+        
+
+        marker_1293d2d4eae715272c060fc9e7b571d6.bindPopup(popup_a736eb296fbc2f7fb474bc40f01d04a3)
+        ;
+
+        
+    
+    
+            var marker_45e61c8e3af98fb8bf4966a0e2b5f9c0 = L.marker(
+                [13.8235801, 100.4598822],
+                {
+}
+            ).addTo(map_e4240bd6d3d85925082804bf55bdafa1);
+        
+    
+            var icon_aa229ee17ff5b58e47a29579da143cf6 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "orange",
+  "iconColor": "white",
+  "icon": "bolt",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_45e61c8e3af98fb8bf4966a0e2b5f9c0.setIcon(icon_aa229ee17ff5b58e47a29579da143cf6);
+        
+    
+        var popup_15ebd41098e5d20d8680ad3e9f8007fc = L.popup({
+  "maxWidth": 250,
+});
+
+        
+            
+                var html_c5620c3ab1914abe5b6c86f96f57b668 = $(`<div id="html_c5620c3ab1914abe5b6c86f96f57b668" style="width: 100.0%; height: 100.0%;">     <b>ไม่ระบุชื่อ</b><br>     📍 ไม่ระบุที่อยู่<br>     🌍 <a href="https://www.google.com/maps/search/?api=1&query=13.8235801,100.4598822" target="_blank">ดูบน Google Maps</a>     </div>`)[0];
+                popup_15ebd41098e5d20d8680ad3e9f8007fc.setContent(html_c5620c3ab1914abe5b6c86f96f57b668);
+            
+        
+
+        marker_45e61c8e3af98fb8bf4966a0e2b5f9c0.bindPopup(popup_15ebd41098e5d20d8680ad3e9f8007fc)
+        ;
+
+        
+    
+    
+            var marker_a75d9ca6c63516f919f711fd3ec31f20 = L.marker(
+                [13.826734, 100.403827],
+                {
+}
+            ).addTo(map_e4240bd6d3d85925082804bf55bdafa1);
+        
+    
+            var icon_d782bf7f21593a0973ba3ca4cba5ec31 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "orange",
+  "iconColor": "white",
+  "icon": "bolt",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_a75d9ca6c63516f919f711fd3ec31f20.setIcon(icon_d782bf7f21593a0973ba3ca4cba5ec31);
+        
+    
+        var popup_2a11b39213721ade7a8e2bcea06329bf = L.popup({
+  "maxWidth": 250,
+});
+
+        
+            
+                var html_b2a7d7d1849b46eafc757d2b0d7fcc28 = $(`<div id="html_b2a7d7d1849b46eafc757d2b0d7fcc28" style="width: 100.0%; height: 100.0%;">     <b>ไม่ระบุชื่อ</b><br>     📍 ไม่ระบุที่อยู่<br>     🌍 <a href="https://www.google.com/maps/search/?api=1&query=13.826734,100.403827" target="_blank">ดูบน Google Maps</a>     </div>`)[0];
+                popup_2a11b39213721ade7a8e2bcea06329bf.setContent(html_b2a7d7d1849b46eafc757d2b0d7fcc28);
+            
+        
+
+        marker_a75d9ca6c63516f919f711fd3ec31f20.bindPopup(popup_2a11b39213721ade7a8e2bcea06329bf)
+        ;
+
+        
+    
+    
+            var marker_9732f8f70e194b5ce1a0434f8de170a3 = L.marker(
+                [13.8315681, 100.4137388],
+                {
+}
+            ).addTo(map_e4240bd6d3d85925082804bf55bdafa1);
+        
+    
+            var icon_f190f33a033dd28cd8f988135dc2b7d7 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "orange",
+  "iconColor": "white",
+  "icon": "bolt",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_9732f8f70e194b5ce1a0434f8de170a3.setIcon(icon_f190f33a033dd28cd8f988135dc2b7d7);
+        
+    
+        var popup_d4b401c4e1143e864d9b5d14469773d0 = L.popup({
+  "maxWidth": 250,
+});
+
+        
+            
+                var html_7f7f0f512ffb2d1876992ebc972ad7d6 = $(`<div id="html_7f7f0f512ffb2d1876992ebc972ad7d6" style="width: 100.0%; height: 100.0%;">     <b>ไม่ระบุชื่อ</b><br>     📍 ไม่ระบุที่อยู่<br>     🌍 <a href="https://www.google.com/maps/search/?api=1&query=13.8315681,100.4137388" target="_blank">ดูบน Google Maps</a>     </div>`)[0];
+                popup_d4b401c4e1143e864d9b5d14469773d0.setContent(html_7f7f0f512ffb2d1876992ebc972ad7d6);
+            
+        
+
+        marker_9732f8f70e194b5ce1a0434f8de170a3.bindPopup(popup_d4b401c4e1143e864d9b5d14469773d0)
+        ;
+
+        
+    
+    
+            var marker_233982db1b5536dd8fa575f9575e02f9 = L.marker(
+                [13.7520841, 100.448974],
+                {
+}
+            ).addTo(map_e4240bd6d3d85925082804bf55bdafa1);
+        
+    
+            var icon_5907081c370ef9dee403368b6f088adc = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "orange",
+  "iconColor": "white",
+  "icon": "bolt",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_233982db1b5536dd8fa575f9575e02f9.setIcon(icon_5907081c370ef9dee403368b6f088adc);
+        
+    
+        var popup_c88f8cc7d5c6b425495cef7c02a67956 = L.popup({
+  "maxWidth": 250,
+});
+
+        
+            
+                var html_dc9043cc70644b4470f6db219a872a89 = $(`<div id="html_dc9043cc70644b4470f6db219a872a89" style="width: 100.0%; height: 100.0%;">     <b>ไม่ระบุชื่อ</b><br>     📍 ไม่ระบุที่อยู่<br>     🌍 <a href="https://www.google.com/maps/search/?api=1&query=13.7520841,100.448974" target="_blank">ดูบน Google Maps</a>     </div>`)[0];
+                popup_c88f8cc7d5c6b425495cef7c02a67956.setContent(html_dc9043cc70644b4470f6db219a872a89);
+            
+        
+
+        marker_233982db1b5536dd8fa575f9575e02f9.bindPopup(popup_c88f8cc7d5c6b425495cef7c02a67956)
+        ;
+
+        
+    
+    
+            var marker_d833071032af5efb881f02768b8483b7 = L.marker(
+                [13.7517739, 100.4385842],
+                {
+}
+            ).addTo(map_e4240bd6d3d85925082804bf55bdafa1);
+        
+    
+            var icon_425219e76627ae30c7024985e025d54e = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "orange",
+  "iconColor": "white",
+  "icon": "bolt",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_d833071032af5efb881f02768b8483b7.setIcon(icon_425219e76627ae30c7024985e025d54e);
+        
+    
+        var popup_5a842c680f71bff21756684639301eb4 = L.popup({
+  "maxWidth": 250,
+});
+
+        
+            
+                var html_9e380541fbf2d621a61aecef12736137 = $(`<div id="html_9e380541fbf2d621a61aecef12736137" style="width: 100.0%; height: 100.0%;">     <b>ไม่ระบุชื่อ</b><br>     📍 ไม่ระบุที่อยู่<br>     🌍 <a href="https://www.google.com/maps/search/?api=1&query=13.7517739,100.4385842" target="_blank">ดูบน Google Maps</a>     </div>`)[0];
+                popup_5a842c680f71bff21756684639301eb4.setContent(html_9e380541fbf2d621a61aecef12736137);
+            
+        
+
+        marker_d833071032af5efb881f02768b8483b7.bindPopup(popup_5a842c680f71bff21756684639301eb4)
+        ;
+
+        
+    
+    
+            var marker_836d35b09ff6a94eab80d84eda0c7939 = L.marker(
+                [13.7122948, 100.4295394],
+                {
+}
+            ).addTo(map_e4240bd6d3d85925082804bf55bdafa1);
+        
+    
+            var icon_c9483829f7de88852765937614550563 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "orange",
+  "iconColor": "white",
+  "icon": "bolt",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_836d35b09ff6a94eab80d84eda0c7939.setIcon(icon_c9483829f7de88852765937614550563);
+        
+    
+        var popup_42fdb789563a08d865c397e7525a3be9 = L.popup({
+  "maxWidth": 250,
+});
+
+        
+            
+                var html_11398fc132427238f84b42c9064afb7a = $(`<div id="html_11398fc132427238f84b42c9064afb7a" style="width: 100.0%; height: 100.0%;">     <b>ไม่ระบุชื่อ</b><br>     📍 ไม่ระบุที่อยู่<br>     🌍 <a href="https://www.google.com/maps/search/?api=1&query=13.7122948,100.4295394" target="_blank">ดูบน Google Maps</a>     </div>`)[0];
+                popup_42fdb789563a08d865c397e7525a3be9.setContent(html_11398fc132427238f84b42c9064afb7a);
+            
+        
+
+        marker_836d35b09ff6a94eab80d84eda0c7939.bindPopup(popup_42fdb789563a08d865c397e7525a3be9)
+        ;
+
+        
+    
+    
+            var marker_7d7519d69c5e8f29ed2934d60f8a4804 = L.marker(
+                [13.7123302, 100.4204327],
+                {
+}
+            ).addTo(map_e4240bd6d3d85925082804bf55bdafa1);
+        
+    
+            var icon_85072088e117077b21bd4a51255ab79a = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "orange",
+  "iconColor": "white",
+  "icon": "bolt",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_7d7519d69c5e8f29ed2934d60f8a4804.setIcon(icon_85072088e117077b21bd4a51255ab79a);
+        
+    
+        var popup_3618d22bd17e20ba545bddf45336ce7e = L.popup({
+  "maxWidth": 250,
+});
+
+        
+            
+                var html_dc19770f4a073dfc09677d3d5c8a338f = $(`<div id="html_dc19770f4a073dfc09677d3d5c8a338f" style="width: 100.0%; height: 100.0%;">     <b>ไม่ระบุชื่อ</b><br>     📍 ไม่ระบุที่อยู่<br>     🌍 <a href="https://www.google.com/maps/search/?api=1&query=13.7123302,100.4204327" target="_blank">ดูบน Google Maps</a>     </div>`)[0];
+                popup_3618d22bd17e20ba545bddf45336ce7e.setContent(html_dc19770f4a073dfc09677d3d5c8a338f);
+            
+        
+
+        marker_7d7519d69c5e8f29ed2934d60f8a4804.bindPopup(popup_3618d22bd17e20ba545bddf45336ce7e)
+        ;
+
+        
+    
+    
+            var marker_9636d0a7a8aa345c81902b9d8261ff1d = L.marker(
+                [13.7368291, 100.4062356],
+                {
+}
+            ).addTo(map_e4240bd6d3d85925082804bf55bdafa1);
+        
+    
+            var icon_2a9bcae0bbb793145a8aec657370504a = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "orange",
+  "iconColor": "white",
+  "icon": "bolt",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_9636d0a7a8aa345c81902b9d8261ff1d.setIcon(icon_2a9bcae0bbb793145a8aec657370504a);
+        
+    
+        var popup_0cf4f749a803263c2ac5831ff627e775 = L.popup({
+  "maxWidth": 250,
+});
+
+        
+            
+                var html_2ebd7c9c347b7d523c0872819758234d = $(`<div id="html_2ebd7c9c347b7d523c0872819758234d" style="width: 100.0%; height: 100.0%;">     <b>ไม่ระบุชื่อ</b><br>     📍 ไม่ระบุที่อยู่<br>     🌍 <a href="https://www.google.com/maps/search/?api=1&query=13.7368291,100.4062356" target="_blank">ดูบน Google Maps</a>     </div>`)[0];
+                popup_0cf4f749a803263c2ac5831ff627e775.setContent(html_2ebd7c9c347b7d523c0872819758234d);
+            
+        
+
+        marker_9636d0a7a8aa345c81902b9d8261ff1d.bindPopup(popup_0cf4f749a803263c2ac5831ff627e775)
+        ;
+
+        
+    
+    
+            var marker_9f24dedbd983f322bf689994ea289ec1 = L.marker(
+                [13.7850547, 100.4712147],
+                {
+}
+            ).addTo(map_e4240bd6d3d85925082804bf55bdafa1);
+        
+    
+            var icon_354045788d44d09d03494e2838c0dae3 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "orange",
+  "iconColor": "white",
+  "icon": "bolt",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_9f24dedbd983f322bf689994ea289ec1.setIcon(icon_354045788d44d09d03494e2838c0dae3);
+        
+    
+        var popup_f709eff4eceb399c269bc91d68e74fc8 = L.popup({
+  "maxWidth": 250,
+});
+
+        
+            
+                var html_a6ebc3d90b00d041bdaa7666ee8c336a = $(`<div id="html_a6ebc3d90b00d041bdaa7666ee8c336a" style="width: 100.0%; height: 100.0%;">     <b>ไม่ระบุชื่อ</b><br>     📍 ไม่ระบุที่อยู่<br>     🌍 <a href="https://www.google.com/maps/search/?api=1&query=13.7850547,100.4712147" target="_blank">ดูบน Google Maps</a>     </div>`)[0];
+                popup_f709eff4eceb399c269bc91d68e74fc8.setContent(html_a6ebc3d90b00d041bdaa7666ee8c336a);
+            
+        
+
+        marker_9f24dedbd983f322bf689994ea289ec1.bindPopup(popup_f709eff4eceb399c269bc91d68e74fc8)
+        ;
+
+        
+    
+    
+            var marker_ee6728952a732858758995038e2581a9 = L.marker(
+                [13.7653564, 100.4054937],
+                {
+}
+            ).addTo(map_e4240bd6d3d85925082804bf55bdafa1);
+        
+    
+            var icon_3ba3774911a48eb45a66da3013359dec = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "orange",
+  "iconColor": "white",
+  "icon": "bolt",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_ee6728952a732858758995038e2581a9.setIcon(icon_3ba3774911a48eb45a66da3013359dec);
+        
+    
+        var popup_dd3f538746d1666a65b4cf1986394540 = L.popup({
+  "maxWidth": 250,
+});
+
+        
+            
+                var html_e67fd89ab60e9ff0dcefdea3f8faaf1a = $(`<div id="html_e67fd89ab60e9ff0dcefdea3f8faaf1a" style="width: 100.0%; height: 100.0%;">     <b>ไม่ระบุชื่อ</b><br>     📍 ไม่ระบุที่อยู่<br>     🌍 <a href="https://www.google.com/maps/search/?api=1&query=13.7653564,100.4054937" target="_blank">ดูบน Google Maps</a>     </div>`)[0];
+                popup_dd3f538746d1666a65b4cf1986394540.setContent(html_e67fd89ab60e9ff0dcefdea3f8faaf1a);
+            
+        
+
+        marker_ee6728952a732858758995038e2581a9.bindPopup(popup_dd3f538746d1666a65b4cf1986394540)
+        ;
+
+        
+    
+    
+            var marker_52ed493ccd8ef7e0fc8d6487ea4c34c1 = L.marker(
+                [13.8210619, 100.4492128],
+                {
+}
+            ).addTo(map_e4240bd6d3d85925082804bf55bdafa1);
+        
+    
+            var icon_de46b3da0b3fb2df70777d445bae1d58 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "orange",
+  "iconColor": "white",
+  "icon": "bolt",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_52ed493ccd8ef7e0fc8d6487ea4c34c1.setIcon(icon_de46b3da0b3fb2df70777d445bae1d58);
+        
+    
+        var popup_efa4da6637065998bac3d18983082b24 = L.popup({
+  "maxWidth": 250,
+});
+
+        
+            
+                var html_bcc4c06886333839192154ce40011f97 = $(`<div id="html_bcc4c06886333839192154ce40011f97" style="width: 100.0%; height: 100.0%;">     <b>ไม่ระบุชื่อ</b><br>     📍 ไม่ระบุที่อยู่<br>     🌍 <a href="https://www.google.com/maps/search/?api=1&query=13.8210619,100.4492128" target="_blank">ดูบน Google Maps</a>     </div>`)[0];
+                popup_efa4da6637065998bac3d18983082b24.setContent(html_bcc4c06886333839192154ce40011f97);
+            
+        
+
+        marker_52ed493ccd8ef7e0fc8d6487ea4c34c1.bindPopup(popup_efa4da6637065998bac3d18983082b24)
+        ;
+
+        
+    
+    
+            var heat_map_7cca2584e016101ebe9645a0663e298f = L.heatLayer(
+                [[13.7412382, 100.5247027], [13.7340918, 100.5285749], [13.7641452, 100.5271857], [13.7421854, 100.5210612], [13.7267576, 100.5102933], [13.7680871, 100.5307341], [13.761954, 100.511995], [13.7868729, 100.5100501], [13.7467157, 100.5249469], [13.759619, 100.5355202], [13.723983, 100.5144477], [13.7458242, 100.5347259], [13.7569429, 100.5305819], [13.7231301, 100.5108032], [13.7623884, 100.5257197], [13.7472435, 100.5285093], [13.7456947, 100.4711327], [13.7241621, 100.5144212], [13.72913, 100.4944], [13.7447696, 100.5349813], [13.8711261, 100.4813247], [13.8545027, 100.5122995], [13.8887498, 100.5718398], [13.8636499, 100.492526], [13.9057629, 100.525215], [13.8638534, 100.5049691], [13.9375721, 100.5398922], [13.8719103, 100.5283126], [13.872465, 100.4814495], [13.9330441, 100.5345645], [13.899997, 100.450674], [13.9052907, 100.5252609], [13.9387083, 100.5541613], [13.8668919, 100.5213794], [13.9209602, 100.5170936], [13.9147794, 100.4517717], [13.8643717, 100.5466078], [13.8525916, 100.5295516], [13.9149447, 100.5426421], [13.8934984, 100.5568576], [13.6990295, 100.7051045], [13.7451871, 100.7469841], [13.764083, 100.651831], [13.8108179, 100.6645143], [13.7222543, 100.7344284], [13.7275198, 100.6418157], [13.7971964, 100.7142593], [13.7316873, 100.6410794], [13.6996985, 100.6470813], [13.7779334, 100.6236199], [13.7217357, 100.7273023], [13.773219, 100.633254], [13.7690285, 100.6623887], [13.7766757, 100.6604845], [13.7745262, 100.6667582], [13.7692308, 100.6317053], [13.6945749, 100.6723897], [13.7222795, 100.7358647], [13.7371278, 100.6177095], [13.7180912, 100.6629802], [13.6206366, 100.5417958], [13.6804965, 100.4694577], [13.6843103, 100.5223493], [13.6427678, 100.4793617], [13.7105738, 100.5028298], [13.6484515, 100.4879566], [13.7059675, 100.4829359], [13.7115976, 100.5005766], [13.6979528, 100.537541], [13.6596426, 100.4338155], [13.6469056, 100.4440876], [13.6250941, 100.4377447], [13.6255155, 100.4380701], [13.6687758, 100.5051612], [13.6851922, 100.4455265], [13.6210385, 100.4886227], [13.6704004, 100.5560365], [13.691278, 100.5030649], [13.6600944, 100.434753], [13.6856492, 100.4943476], [13.7685979, 100.4445747], [13.761351, 100.4441585], [13.7433638, 100.4471248], [13.7906966, 100.4900158], [13.7582, 100.4382277], [13.7823835, 100.4519637], [13.7547206, 100.4234673], [13.7590027, 100.4199493], [13.7674239, 100.405608], [13.8235801, 100.4598822], [13.826734, 100.403827], [13.8315681, 100.4137388], [13.7520841, 100.448974], [13.7517739, 100.4385842], [13.7122948, 100.4295394], [13.7123302, 100.4204327], [13.7368291, 100.4062356], [13.7850547, 100.4712147], [13.7653564, 100.4054937], [13.8210619, 100.4492128]],
+                {
+  "minOpacity": 0.5,
+  "maxZoom": 18,
+  "radius": 25,
+  "blur": 15,
+}
+            );
+        
+    
+            heat_map_7cca2584e016101ebe9645a0663e298f.addTo(map_e4240bd6d3d85925082804bf55bdafa1);
+        
+    
+            var layer_control_6aaf2a9d19cf64621d1bec5549b78138_layers = {
+                base_layers : {
+                    "CartoDB Voyager Labels Under" : tile_layer_c57ae31057e2a5f4ac2a24ad02a5e563,
+                },
+                overlays :  {
+                    "macro_element_7cca2584e016101ebe9645a0663e298f" : heat_map_7cca2584e016101ebe9645a0663e298f,
+                },
+            };
+            let layer_control_6aaf2a9d19cf64621d1bec5549b78138 = L.control.layers(
+                layer_control_6aaf2a9d19cf64621d1bec5549b78138_layers.base_layers,
+                layer_control_6aaf2a9d19cf64621d1bec5549b78138_layers.overlays,
+                {
+  "position": "topright",
+  "collapsed": true,
+  "autoZIndex": true,
+}
+            ).addTo(map_e4240bd6d3d85925082804bf55bdafa1);
+
+        
+</script>
+</html>
